@@ -58,7 +58,7 @@ jobs:
 
   test:
     name: test [NodeJS ${{ matrix.node-version }}, OS ${{ matrix.os }}]
-    needs: [check, duplicate]
+    needs: [lintcheck, lintduplicate]
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
