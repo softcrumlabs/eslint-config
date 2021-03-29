@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
-  <file path="/Users/danielvalenzuelasuarez/Documents/Desarrollo/eslint-config-softcrum/rules/base.spec.js">
+  <file path="/Users/danielvalenzuelasuarez/Documents/Desarrollo/Softcrum/common/eslint-config/rules/base.spec.js">
     <testCase name="Test - Rules base Test 01 - File" duration="3"/>
     <testCase name="Test - Rules base Test 02 - ParserOptions" duration="2"/>
-    <testCase name="Test - Rules base Test 03 - Plugins" duration="0"/>
-    <testCase name="Test - Rules base Test 04 - Rules" duration="0"/>
+    <testCase name="Test - Rules base Test 03 - Plugins" duration="1"/>
+    <testCase name="Test - Rules base Test 04 - Rules" duration="1"/>
   </file>
-  <file path="/Users/danielvalenzuelasuarez/Documents/Desarrollo/eslint-config-softcrum/index.spec.js">
-    <testCase name="Test - Rules index Test 01 - File" duration="0"/>
-    <testCase name="Test - Rules index Test 02 - Extends" duration="0"/>
+  <file path="/Users/danielvalenzuelasuarez/Documents/Desarrollo/Softcrum/common/eslint-config/index.spec.js">
+    <testCase name="Test - Rules index Test 01 - File" duration="1"/>
+    <testCase name="Test - Rules index Test 02 - Extends" duration="1"/>
     <testCase name="Test - Rules index Test 03 - Rules" duration="1"/>
   </file>
 </testExecutions>
