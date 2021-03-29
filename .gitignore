@@ -1,0 +1,26 @@
+# Configuracion de GitIgnore
+
+# Dependencias
+/node_modules
+
+# Pruebas
+/coverage
+
+# Produccion
+/.next
+/bin
+/build
+/dist
+/out
+
+# Archivos y carpetas generales
+.DS_Store
+.env.development.local
+.env.local
+.env.production.local
+.env.test.local
+node.log
+npm-debug.log*
+package-lock.json
+yarn-debug.log*
+yarn-error.log*

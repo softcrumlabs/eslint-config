@@ -1,0 +1,21 @@
+module.exports = {
+  collectCoverage: true,
+  collectCoverageFrom: ['./rules/*.{js,jsx,ts}', '*.{js,jsx,ts}'],
+  coverageDirectory: './coverage/',
+  coveragePathIgnorePatterns: ['./coverage', './dist', './logs', './node_modules', 'jest.config.js'],
+  coverageThreshold: {
+    global: {
+      branches: 100,
+      functions: 100,
+      lines: 100,
+      statements: 100,
+    },
+  },
+  forceExit: true,
+  testEnvironment: 'node',
+  testResultsProcessor: 'jest-sonar-reporter',
+  transform: {
+    '^.+\\.[t|j]sx?$': 'babel-jest',
+  },
+  verbose: true,
+};

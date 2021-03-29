@@ -1,0 +1,71 @@
+{
+  "name": "@softcrumhq/eslint-config",
+  "version": "1.0.0",
+  "description": "Repositorio con la configuración genérica de Eslint para todos los proyectos de la empresa",
+  "keywords": [
+    "Eslint",
+    "Javascript",
+    "Linter",
+    "Typescript"
+  ],
+  "author": {
+    "email": "developers@softcrum.com",
+    "name": "Softcrum Corporate",
+    "url": "https://www.softcrum.com"
+  },
+  "contributors": [
+    "Daniel Valenzuela <daniel.valenzuela@softcrum.com>"
+  ],
+  "main": "index.js",
+  "license": "MIT",
+  "homepage": "https://github.com/softcrumhq/eslint-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/softcrumhq/eslint-config.git"
+  },
+  "bugs": {
+    "email": "developers@softcrum.com",
+    "url": "https://github.com/softcrumhq/eslint-config/issues"
+  },
+  "engines": {
+    "node": ">=14.16.0",
+    "npm": ">=6.14.10",
+    "yarn": ">=1.22.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "scripts": {
+    "changelog": "node ./.github/changelog.js",
+    "ci": "yarn run lint:check && yarn run lint:duplicate && yarn run test",
+    "clean": "rimraf -rf dist node_modules/.cache",
+    "lint:check": "eslint . --fix",
+    "lint:duplicate": "yarn run jscpd -i '**/+(.github|coverage|node_modules)/**' -t '0'",
+    "test": "jest --coverage --detectOpenHandles --passWithNoTests --runInBand --watchAll=false"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "7.13.13",
+    "@babel/eslint-parser": "7.13.10",
+    "@babel/runtime": "7.13.10",
+    "babel-jest": "26.6.3",
+    "babel-preset-airbnb": "5.0.0",
+    "eslint": "7.23.0",
+    "eslint-config-airbnb": "18.2.1",
+    "eslint-config-prettier": "8.1.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-prettier": "3.3.1",
+    "eslint-plugin-react": "7.23.1",
+    "eslint-plugin-react-hooks": "4.2.0",
+    "jscpd": "3.3.25",
+    "jest": "26.6.3",
+    "jest-sonar-reporter": "2.0.0",
+    "prettier": "2.2.1",
+    "react": "17.0.2",
+    "rimraf": "3.0.2"
+  },
+  "peerDependencies": {
+    "eslint": "7.23.0"
+  }
+}

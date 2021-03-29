@@ -1,0 +1,39 @@
+name: Pipeline Changelog
+
+on:
+  registry_package:
+    types: [published, updated]
+
+jobs:
+  changelog:
+    name: Changelog [NodeJS ${{ matrix.node-version }}, OS ${{ matrix.os }}]
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        node-version: ['14.x']
+        os: [ubuntu-latest]
+    steps:
+    - name: Configuration - Git Checkout
+      uses: actions/checkout@v2
+    - name: Install - NodeJS ${{ matrix.node-version }}
+      uses: actions/setup-node@v2
+      with:
+        node-version: ${{ matrix.node-version }}
+        registry-url: https://npm.pkg.github.com/
+        scope: '@softcrumhq'
+    - name: Run script - Install
+      uses: borales/actions-yarn@v2.3.0
+      with:
+        cmd: install
+    - name: Run script - changelog
+      uses: borales/actions-yarn@v2.3.0
+      with:
+        cmd: changelog
+    - name: Run script - Commit changes
+      uses: EndBug/add-and-commit@v7
+      with:
+        author_name: ${{ secrets.USER_NAME }}
+        author_email: ${{ secrets.USER_EMAIL }}
+        message: 'chore(changelog): Update CHANGELOG.md'
+        add: 'CHANGELOG.md'
+    timeout-minutes: 5

@@ -1,0 +1,107 @@
+name: Pipeline Integration
+
+on: [push, pull_request_target]
+
+jobs:
+
+  lintcheck:
+    name: lint:check [NodeJS ${{ matrix.node-version }}, OS ${{ matrix.os }}]
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        node-version: ['14.x']
+        os: [ubuntu-latest]
+    steps:
+    - name: Configuration - Git Checkout
+      uses: actions/checkout@v2
+    - name: Install - NodeJS ${{ matrix.node-version }}
+      uses: actions/setup-node@v2
+      with:
+        node-version: ${{ matrix.node-version }}
+        registry-url: https://npm.pkg.github.com/
+        scope: '@softcrumhq'
+    - name: Run script - install
+      uses: borales/actions-yarn@v2.3.0
+      with:
+        cmd: install
+    - name: Run script - lint:check
+      uses: borales/actions-yarn@v2.3.0
+      with:
+        cmd: lint:check
+    timeout-minutes: 3
+
+  lintduplicate:
+    name: lint:duplicate [NodeJS ${{ matrix.node-version }}, OS ${{ matrix.os }}]
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        node-version: ['14.x']
+        os: [ubuntu-latest]
+    steps:
+    - name: Configuration - Git Checkout
+      uses: actions/checkout@v2
+    - name: Install - NodeJS ${{ matrix.node-version }}
+      uses: actions/setup-node@v2
+      with:
+        node-version: ${{ matrix.node-version }}
+        registry-url: https://npm.pkg.github.com/
+        scope: '@softcrumhq'
+    - name: Run script - Install
+      uses: borales/actions-yarn@v2.3.0
+      with:
+        cmd: install
+    - name: Run script - lint:duplicate
+      uses: borales/actions-yarn@v2.3.0
+      with:
+        cmd: lint:duplicate
+    timeout-minutes: 3
+
+  test:
+    name: test [NodeJS ${{ matrix.node-version }}, OS ${{ matrix.os }}]
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        node-version: ['14.x']
+        os: [ubuntu-latest]
+    steps:
+    - name: Configuration - Git Checkout
+      uses: actions/checkout@v2
+    - name: Install - NodeJS ${{ matrix.node-version }}
+      uses: actions/setup-node@v2
+      with:
+        node-version: ${{ matrix.node-version }}
+        registry-url: https://npm.pkg.github.com/
+        scope: '@softcrumhq'
+    - name: Run script - install
+      uses: borales/actions-yarn@v2.3.0
+      with:
+        cmd: install
+    - name: Run script - test
+      uses: borales/actions-yarn@v2.3.0
+      with:
+        cmd: test
+    timeout-minutes: 5
+
+  sonarcloud:
+    name: sonarcloud [NodeJS ${{ matrix.node-version }}, OS ${{ matrix.os }}]
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        node-version: ['14.x']
+        os: [ubuntu-latest]
+    steps:
+    - name: Configuration - Git Checkout
+      uses: actions/checkout@v2
+    - name: Install - NodeJS ${{ matrix.node-version }}
+      uses: actions/setup-node@v2
+      with:
+        node-version: ${{ matrix.node-version }}
+        registry-url: https://npm.pkg.github.com/
+        scope: '@softcrumhq'
+    - name: Run script - sonarcloud
+      uses: sonarsource/sonarcloud-github-action@master
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB }}
+        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+    timeout-minutes: 5
+
