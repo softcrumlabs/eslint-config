@@ -8,7 +8,7 @@ Repositorio con la configuración genérica de Eslint para todos los proyectos d
 
 
 ### Repository Status
-[![Package version](https://img.shields.io/badge/dynamic/json?color=blue&label=version&logo=github&query=version&url=https://raw.githubusercontent.com/softcrumhq/eslint-config/master/package.json?token=AFMWHDUE2B26BN3LFGKDET3ANIXIO)](https://github.com/softcrumhq/eslint-config)
+[![Package version](https://img.shields.io/badge/dynamic/json?color=blue&label=version&logo=github&query=version&url=https://raw.githubusercontent.com/softcrumhq/eslint-config/master/package.json?token=AFMWHDRWLATSGK33XH7GV7LANOI5E)](https://github.com/softcrumhq/eslint-config)
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=softcrumhq_eslint-config&metric=bugs)](https://sonarcloud.io/project/issues?id=softcrumhq_eslint-config&resolved=false&types=BUG)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=softcrumhq_eslint-config&metric=code_smells)](https://sonarcloud.io/project/issues?id=softcrumhq_eslint-config&resolved=false&types=CODE_SMELL)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=softcrumhq_eslint-config&metric=coverage)](https://sonarcloud.io/component_measures?id=softcrumhq_eslint-config&metric=coverage&view=list)

@@ -15,11 +15,17 @@ jobs:
         node: ['14.x']
         os: [ubuntu-latest]
     steps:
-    - name: Configuration - Git Checkout
+    - name: Run script - git checkout
       uses: actions/checkout@v2
       with:
         fetch-depth: 0
-    - name: Run script - Release
+    - name: Run script - setup
+      uses: actions/setup-node@v2
+      with:
+        node-version: ${{ matrix.node-version }}
+        registry-url: https://npm.pkg.github.com/
+        scope: '@softcrumhq'
+    - name: Run script - release
       continue-on-error: true
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB }}
@@ -46,11 +52,6 @@ jobs:
             { "type": "hotfix", "release": "patch" },
             { "type": "security", "release": "patch" }
           ]'
-    - name: Run script - Setup NodeJS
-      uses: actions/setup-node@v2
-      with:
-        registry-url: https://npm.pkg.github.com/
-        scope: '@softcrumhq'
     - name: Run script - package
       continue-on-error: true
       env:
