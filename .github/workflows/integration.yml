@@ -46,7 +46,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
         registry-url: https://npm.pkg.github.com/
         scope: '@softcrumhq'
-    - name: Run script - Install
+    - name: Run script - install
       uses: borales/actions-yarn@v2.3.0
       with:
         cmd: install
@@ -65,9 +65,9 @@ jobs:
         node-version: ['14.x']
         os: [ubuntu-latest]
     steps:
-    - name: Configuration - Git Checkout
+    - name: Run script - git checkout
       uses: actions/checkout@v2
-    - name: Install - NodeJS ${{ matrix.node-version }}
+    - name: Run script - setup
       uses: actions/setup-node@v2
       with:
         node-version: ${{ matrix.node-version }}
