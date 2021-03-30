@@ -1,7 +1,7 @@
 {
   "name": "@softcrumhq/eslint-config",
   "version": "1.1.0",
-  "description": "Repositorio con la configuración genérica de Eslint para todos los proyectos de la empresa",
+  "description": "Repositorio con toda la configuración de estilos de programación para Javascript",
   "keywords": [
     "Eslint",
     "Javascript",
@@ -45,8 +45,8 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@babel/core": "7.13.13",
-    "@babel/eslint-parser": "7.13.10",
+    "@babel/core": "7.13.14",
+    "@babel/eslint-parser": "7.13.14",
     "@babel/runtime": "7.13.10",
     "babel-jest": "26.6.3",
     "babel-preset-airbnb": "5.0.0",

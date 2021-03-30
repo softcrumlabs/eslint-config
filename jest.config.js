@@ -1,3 +1,7 @@
+/**
+ * Configuracion de la libreria Jest
+ * Se configuran todos los parametros necesarios para el uso de Jest en las pruebas del proyectos
+ */
 module.exports = {
   collectCoverage: true,
   collectCoverageFrom: ['./rules/*.{js,jsx,ts}', '*.{js,jsx,ts}'],
