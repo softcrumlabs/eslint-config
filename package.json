@@ -1,6 +1,6 @@
 {
   "name": "@softcrumhq/eslint-config",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Repositorio con la configuración genérica de Eslint para todos los proyectos de la empresa",
   "keywords": [
     "Eslint",
