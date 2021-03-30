@@ -1,19 +1,19 @@
 # Configuracion de GitIgnore
 
-# Dependencias
+# Rutas para dependencias
 /node_modules
 
-# Pruebas
+# Rutas para pruebas
 /coverage
 
-# Produccion
+# Rutas para produccion
 /.next
 /bin
 /build
 /dist
 /out
 
-# Archivos y carpetas generales
+# Rutas para carpetas y archivos
 .DS_Store
 .env.development.local
 .env.local
