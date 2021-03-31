@@ -28,7 +28,7 @@ jobs:
     - name: Run script - release
       continue-on-error: true
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB }}
+        GITHUB_TOKEN: ${{ secrets.GH_COMMIT }}
       uses: ridedott/release-me-action@master
       with:
         node-module: true
