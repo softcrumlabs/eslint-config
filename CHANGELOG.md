@@ -4,25 +4,11 @@
 
 - Se corrige error al leer el archivo CHANGELOG.md ([05fa1b2](https://github.com/softcrumhq/eslint-config/commit/05fa1b2795b34a49f863297cf957d65072dc6fac))
 
-### Other
-
-- Merge pull request #27 from softcrumhq/release ([1ff0ff9](https://github.com/softcrumhq/eslint-config/commit/1ff0ff9f63a6cec0cd461ffd4c8abc85585d70f9)), closes [#27](https://github.com/softcrumhq/eslint-config/issues/27)
-- Merge pull request #26 from softcrumhq/develop ([e0e87af](https://github.com/softcrumhq/eslint-config/commit/e0e87af3d3ad05dd285d253f1525b940137c425c)), closes [#26](https://github.com/softcrumhq/eslint-config/issues/26)
-- Merge pull request #25 from softcrumhq/feature/action-checkout ([63716a0](https://github.com/softcrumhq/eslint-config/commit/63716a048d527f09466900800d4107023514200e)), closes [#25](https://github.com/softcrumhq/eslint-config/issues/25)
-- Merge pull request #24 from softcrumhq/master ([6b1e530](https://github.com/softcrumhq/eslint-config/commit/6b1e53012d2acdac48cb727a013c5fc7492e9f5f)), closes [#24](https://github.com/softcrumhq/eslint-config/issues/24)
-
 ## [1.3.2](https://github.com/softcrumhq/eslint-config/compare/v1.3.1...v1.3.2) (2021-03-31)
 
 ### Bug Fixes
 
 - Se agregan los branches donde se ejecutara el pipeline integration ([03b55b2](https://github.com/softcrumhq/eslint-config/commit/03b55b24c76d9e41db9c29cb88fe8e001245b9c6))
-
-### Other
-
-- Merge pull request #23 from softcrumhq/release ([ae16662](https://github.com/softcrumhq/eslint-config/commit/ae16662da4b28f58bf5cf897c51cdcf3749046aa)), closes [#23](https://github.com/softcrumhq/eslint-config/issues/23)
-- Merge pull request #22 from softcrumhq/develop ([945632b](https://github.com/softcrumhq/eslint-config/commit/945632b8c6b91f88239b1eadc564425f17cdcd63)), closes [#22](https://github.com/softcrumhq/eslint-config/issues/22)
-- Merge pull request #21 from softcrumhq/feature/action-checkout ([031df1e](https://github.com/softcrumhq/eslint-config/commit/031df1eefbf56310e36bdc58a8231d8a09fc89ad)), closes [#21](https://github.com/softcrumhq/eslint-config/issues/21)
-- Merge pull request #20 from softcrumhq/master ([40d10d7](https://github.com/softcrumhq/eslint-config/commit/40d10d7014520769442909a4907ad57e5545fe8a)), closes [#20](https://github.com/softcrumhq/eslint-config/issues/20)
 
 ## [1.3.1](https://github.com/softcrumhq/eslint-config/compare/v1.3.0...v1.3.1) (2021-03-31)
 
@@ -30,17 +16,6 @@
 
 - Se agrega correccion para el proceso de push sobre la rama master ([f1837b7](https://github.com/softcrumhq/eslint-config/commit/f1837b7d69c9ad09fd403c7f771e63dec523ff89))
 - Se corrige nombre de los secrets del pipeline changelog ([b1a8524](https://github.com/softcrumhq/eslint-config/commit/b1a852405f82dd4e902a3e0b559a9b543928fdce))
-
-### Chores
-
-- **changelog:** Update CHANGELOG.md ([a20c384](https://github.com/softcrumhq/eslint-config/commit/a20c38421809e2d5f51a219ad70a17ebfd426f0e))
-
-### Other
-
-- Merge pull request #19 from softcrumhq/release ([d89f0e5](https://github.com/softcrumhq/eslint-config/commit/d89f0e59740fbc131d8c30e1087b547d8f3f3ebc)), closes [#19](https://github.com/softcrumhq/eslint-config/issues/19)
-- Merge pull request #18 from softcrumhq/develop ([eec501e](https://github.com/softcrumhq/eslint-config/commit/eec501e2351eacd10ab16b6a5b94fd6c56a6cbcc)), closes [#18](https://github.com/softcrumhq/eslint-config/issues/18)
-- Merge pull request #17 from softcrumhq/feature/action-checkout ([9da1e5a](https://github.com/softcrumhq/eslint-config/commit/9da1e5a57b961ccc304f2afeeb23c3e4f1423c3e)), closes [#17](https://github.com/softcrumhq/eslint-config/issues/17)
-- Merge pull request #16 from softcrumhq/master ([cfe487b](https://github.com/softcrumhq/eslint-config/commit/cfe487b27a1f6f4a7263485eb41c1a73efe818aa)), closes [#16](https://github.com/softcrumhq/eslint-config/issues/16)
 
 # [1.3.0](https://github.com/softcrumhq/eslint-config/compare/v1.2.0...v1.3.0) (2021-03-31)
 
