@@ -1,6 +1,24 @@
 name: Pipeline Integration
 
-on: [push, pull_request_target]
+on:
+  push:
+    branches:
+      - master
+      - release
+      - develop
+      - bugfix/*
+      - dependabot/*
+      - feature/*
+      - hotfix/*
+  pull_request_target:
+    branches:
+      - master
+      - release
+      - develop
+      - bugfix/*
+      - dependabot/*
+      - feature/*
+      - hotfix/*
 
 jobs:
 
@@ -14,6 +32,9 @@ jobs:
     steps:
     - name: Configuration - Git Checkout
       uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+        token: ${{ secrets.GH_COMMIT }}
     - name: Install - NodeJS ${{ matrix.node-version }}
       uses: actions/setup-node@v2
       with:
@@ -40,6 +61,9 @@ jobs:
     steps:
     - name: Configuration - Git Checkout
       uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+        token: ${{ secrets.GH_COMMIT }}
     - name: Install - NodeJS ${{ matrix.node-version }}
       uses: actions/setup-node@v2
       with:
