@@ -26,7 +26,7 @@ fs.readFile(FILE_NAME, 'utf8', async(error, data) => {
   let type = '';
   // Se genera un arbol con todos los comentarios del proyecto
   await file.forEach((line) => {
-    if (line.includes('# ') && !line.includes('# ', 1)) {
+    if (line.includes('# ') && (!line.includes('# ', 1) || !line.includes('## ', 1))) {
       release++;
       parser.push({
         data: {},
