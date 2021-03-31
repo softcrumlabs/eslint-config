@@ -29,11 +29,16 @@ jobs:
       uses: borales/actions-yarn@v2.3.0
       with:
         cmd: changelog
-    - name: Run script - commit changes
-      uses: EndBug/add-and-commit@v7
+    - name: Run script - gpg
+      uses: crazy-max/ghaction-import-gpg@v3
       with:
-        author_name: ${{ secrets.USER_NAME }}
-        author_email: ${{ secrets.USER_EMAIL }}
-        message: 'chore(changelog): Update CHANGELOG.md'
-        add: 'CHANGELOG.md'
+        git-commit-gpgsign: true
+        gpg-private-key: ${{ secrets.GPG_KEY }}
+        git-user-signingkey: true
+        passphrase: ${{ secrets.GPG_PASSPHRASE }}
+    - name: Run script - commit changes
+      run: |
+            git add -A
+            git commit -S -m "chore(changelog): Update CHANGELOG.md"
+            git push
     timeout-minutes: 5
