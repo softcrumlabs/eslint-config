@@ -1,3 +1,16 @@
+## [1.3.3](https://github.com/softcrumhq/eslint-config/compare/v1.3.2...v1.3.3) (2021-03-31)
+
+### Bug Fixes
+
+- Se corrige error al leer el archivo CHANGELOG.md ([05fa1b2](https://github.com/softcrumhq/eslint-config/commit/05fa1b2795b34a49f863297cf957d65072dc6fac))
+
+### Other
+
+- Merge pull request #27 from softcrumhq/release ([1ff0ff9](https://github.com/softcrumhq/eslint-config/commit/1ff0ff9f63a6cec0cd461ffd4c8abc85585d70f9)), closes [#27](https://github.com/softcrumhq/eslint-config/issues/27)
+- Merge pull request #26 from softcrumhq/develop ([e0e87af](https://github.com/softcrumhq/eslint-config/commit/e0e87af3d3ad05dd285d253f1525b940137c425c)), closes [#26](https://github.com/softcrumhq/eslint-config/issues/26)
+- Merge pull request #25 from softcrumhq/feature/action-checkout ([63716a0](https://github.com/softcrumhq/eslint-config/commit/63716a048d527f09466900800d4107023514200e)), closes [#25](https://github.com/softcrumhq/eslint-config/issues/25)
+- Merge pull request #24 from softcrumhq/master ([6b1e530](https://github.com/softcrumhq/eslint-config/commit/6b1e53012d2acdac48cb727a013c5fc7492e9f5f)), closes [#24](https://github.com/softcrumhq/eslint-config/issues/24)
+
 ## [1.3.2](https://github.com/softcrumhq/eslint-config/compare/v1.3.1...v1.3.2) (2021-03-31)
 
 ### Bug Fixes
