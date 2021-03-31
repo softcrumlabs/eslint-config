@@ -54,17 +54,4 @@ jobs:
           ]'
         disable-changelog: true
         disable-generate-changelog: true
-    - name: Authenticate
-      uses: actions/checkout@v2
-      with:
-        fetch-depth: 1
-        persist-credentials: true
-        token: ${{ secrets.GH_COMMIT }}
-    - name: Tag
-      run: |
-        git config --global user.name '{{ secrets.USER_NAME }}'
-        git config --global user.email '{{ secrets.USER_EMAIL }}'
-        git push origin :refs/tags/'v${{ steps.release.outputs.major }}'
-        git tag 'v${{ steps.release.outputs.major }}' --force
-        git push --tags
     timeout-minutes: 5
