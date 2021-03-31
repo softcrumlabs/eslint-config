@@ -84,6 +84,6 @@ jobs:
     - name: Run script - sonarcloud
       uses: sonarsource/sonarcloud-github-action@master
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB }}
+        GITHUB_TOKEN: ${{ secrets.GH_COMMIT }}
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
     timeout-minutes: 10
