@@ -25,13 +25,6 @@ jobs:
         node-version: ${{ matrix.node-version }}
         registry-url: https://npm.pkg.github.com/
         scope: '@softcrumhq'
-    - name: Run script - gpg
-      uses: crazy-max/ghaction-import-gpg@v3
-      with:
-        git-commit-gpgsign: true
-        gpg-private-key: ${{ secrets.GPG_KEY }}
-        git-user-signingkey: true
-        passphrase: ${{ secrets.GPG_PASSPHRASE }}
     - name: Run script - release
       continue-on-error: true
       env:
