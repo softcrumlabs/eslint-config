@@ -16,36 +16,91 @@ const FILE_NAME = 'CHANGELOG.md';
  */
 fs.readFile(FILE_NAME, 'utf8', async(error, data) => {
   if (error) {
+    console.info('');
     return [''];
   }
+  // Se declaran las variables internas a utilizar en el metodo
   const file = data.split('\n');
-  const lines = [];
-  let newLine = false;
+  const parser = [];
+  let release = 0;
+  let type = '';
+  // Se genera un arbol con todos los comentarios del proyecto
   await file.forEach((line) => {
-    if (line.trim() === '') {
-      if (!newLine) {
-        lines.push(line);
+    if (line.includes('# ') && !line.includes('# ', 1)) {
+      release++;
+      parser.push({
+        data: {},
+        id: release,
+        title: line,
+      });
+    } else {
+      if (line.includes('### ')) {
+        type = line.replace(/#/g, '').trim().toLowerCase().replace(/ /g, '_');
+        parser[release - 1].data[type] = [];
+      } else if (line.trim() !== '') {
+        parser[release - 1].data[type].push(line);
       }
-      newLine = true;
-    }
-    else {
-      newLine = false;
-      lines.push(line);
     }
   });
-  await fs.writeFile(FILE_NAME, '', {}, () => {});;
-  let remove = 0;
-  await lines.forEach((line, key) => {
-    if (line.includes('Other')) {
-      remove = 2;
-    } else if (remove > 0 && line.trim() === '') {
-      remove--;
-    } else if (remove === 0) {
-      fs.writeFileSync(FILE_NAME, lines.length === key + 1 ? line : `${line}\n`, {
+  // Se eliminan los comentarios en la categoria Other y los Chores de actualizacion
+  await parser.forEach((release, keyRelease) => {
+    Object.keys(release.data).forEach((category) => {
+      parser[keyRelease].data[category] = release.data[category].filter((item) => !item.includes('- **changelog:**'));
+    })
+  });
+  await parser.forEach((release, key) => {
+    Object.keys(release.data).forEach((category) => {
+      if (category === 'other' || release.data[category].length === 0) {
+        delete (parser[key].data[category]);
+      }
+    })
+  });
+  // Se elimina el contenido previo del archivo
+  await fs.writeFile(FILE_NAME, '', {}, () => {});
+  // Se agregan todos los comentarios al archivo
+  parser.forEach((release, keyRelease) => {
+    fs.writeFileSync(FILE_NAME, `${release.title}\n`, {
+      encoding: "utf8",
+      flag: "a+",
+      mode: 0o666,
+    }, () => {});
+    fs.writeFileSync(FILE_NAME, '\n', {
+      encoding: "utf8",
+      flag: "a+",
+      mode: 0o666,
+    }, () => {});
+    Object.keys(release.data).forEach((category) => {
+      fs.writeFileSync(FILE_NAME, `### ${category.replace(/_/g, ' ').toLowerCase().replace(/\b[a-z]/g, text => text.toUpperCase())}\n`, {
         encoding: "utf8",
         flag: "a+",
         mode: 0o666,
       }, () => {});
+      fs.writeFileSync(FILE_NAME, '\n', {
+        encoding: "utf8",
+        flag: "a+",
+        mode: 0o666,
+      }, () => {});
+      release.data[category].forEach((comment) => {
+        fs.writeFileSync(FILE_NAME, `${comment}\n`, {
+          encoding: "utf8",
+          flag: "a+",
+          mode: 0o666,
+        }, () => {});
+      });
+      if (parser.length !== keyRelease + 1) {
+        fs.writeFileSync(FILE_NAME, '\n', {
+          encoding: "utf8",
+          flag: "a+",
+          mode: 0o666,
+        }, () => {});
+      }
+    });
+  });
+  // Se visualiza si el archivo fue modificado
+  await fs.readFile(FILE_NAME, 'utf8', async(error, data) => {
+    if (error) {
+      console.info('The file has not been modified');
     }
-  })
+    console.info(file.length !== data.split('\n').length ? 'The file has been modified' : 'The file has not been modified');
+  });
 });
