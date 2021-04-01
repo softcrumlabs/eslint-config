@@ -83,8 +83,8 @@ module.exports = {
     // https://eslint.org/docs/rules/no-unsafe-optional-chaining
     'no-unsafe-optional-chaining': 0,
 
-    //
-    //
+    // Disallow Early Use (no-use-before-define)
+    // https://eslint.org/docs/rules/no-use-before-define
     'no-use-before-define': 0,
 
     //
