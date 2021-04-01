@@ -11,6 +11,19 @@ const fs = require('fs');
 const FILE_NAME = 'CHANGELOG.md';
 
 /**
+ *
+ * Funcion que almacena la linea en el archivo indicado
+ */
+writeFile = (file, line) => {
+  console.info(line.replace(/\n/g, ''));
+  fs.writeFileSync(file, line, {
+    encoding: "utf8",
+    flag: "a+",
+    mode: 0o666,
+  }, () => {});
+};
+
+/**
  * Metodo Changelog
  * Funcion que elimina las lineas que no aportan valor sobre los cambios realizados al proyecto
  */
@@ -57,50 +70,28 @@ fs.readFile(FILE_NAME, 'utf8', async(error, data) => {
   });
   // Se elimina el contenido previo del archivo
   await fs.writeFile(FILE_NAME, '', {}, () => {});
+  console.info('\n##############\n###  File  ###\n##############\n');
   // Se agregan todos los comentarios al archivo
   parser.forEach((release, keyRelease) => {
-    fs.writeFileSync(FILE_NAME, `${release.title}\n`, {
-      encoding: "utf8",
-      flag: "a+",
-      mode: 0o666,
-    }, () => {});
-    fs.writeFileSync(FILE_NAME, '\n', {
-      encoding: "utf8",
-      flag: "a+",
-      mode: 0o666,
-    }, () => {});
+    writeFile(FILE_NAME, `${release.title}\n`);
+    writeFile(FILE_NAME, '\n');
     Object.keys(release.data).forEach((category) => {
-      fs.writeFileSync(FILE_NAME, `### ${category.replace(/_/g, ' ').toLowerCase().replace(/\b[a-z]/g, text => text.toUpperCase())}\n`, {
-        encoding: "utf8",
-        flag: "a+",
-        mode: 0o666,
-      }, () => {});
-      fs.writeFileSync(FILE_NAME, '\n', {
-        encoding: "utf8",
-        flag: "a+",
-        mode: 0o666,
-      }, () => {});
+      writeFile(FILE_NAME, `### ${category.replace(/_/g, ' ').toLowerCase().replace(/\b[a-z]/g, text => text.toUpperCase())}\n`);
+      writeFile(FILE_NAME, '\n');
       release.data[category].forEach((comment) => {
-        fs.writeFileSync(FILE_NAME, `${comment}\n`, {
-          encoding: "utf8",
-          flag: "a+",
-          mode: 0o666,
-        }, () => {});
+        writeFile(FILE_NAME, `${comment}\n`);
       });
       if (parser.length !== keyRelease + 1) {
-        fs.writeFileSync(FILE_NAME, '\n', {
-          encoding: "utf8",
-          flag: "a+",
-          mode: 0o666,
-        }, () => {});
+        writeFile(FILE_NAME, '\n');
       }
     });
   });
   // Se visualiza si el archivo fue modificado
   await fs.readFile(FILE_NAME, 'utf8', async(error, data) => {
+    console.info('\n\n##############\n### Detail ###\n##############\n');
     if (error) {
-      console.info('The file has not been modified');
+      console.info('The file has not been modified\n');
     }
-    console.info(file.length !== data.split('\n').length ? 'The file has been modified' : 'The file has not been modified');
+    console.info(file.length !== data.split('\n').length ? 'The file has been modified\n' : 'The file has not been modified\n');
   });
 });
