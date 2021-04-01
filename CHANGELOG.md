@@ -4,17 +4,6 @@
 
 - Se agregan los logs correspondientes al archivo changelog.js ([7811764](https://github.com/softcrumhq/eslint-config/commit/78117646d9edba477c1223e4a53931b515251445))
 
-### Chores
-
-- **changelog:** Update CHANGELOG.md ([5502196](https://github.com/softcrumhq/eslint-config/commit/55021961ac07adfdf2b2657a6a51eec879ff9443))
-
-### Other
-
-- Merge pull request #39 from softcrumhq/release ([11efa3a](https://github.com/softcrumhq/eslint-config/commit/11efa3a473e015aec89f3fcdc5e7f974bbf8a854)), closes [#39](https://github.com/softcrumhq/eslint-config/issues/39)
-- Merge pull request #38 from softcrumhq/develop ([ca27a28](https://github.com/softcrumhq/eslint-config/commit/ca27a28ebd921d6eb5bb97c670d4df15ea641095)), closes [#38](https://github.com/softcrumhq/eslint-config/issues/38)
-- Merge pull request #37 from softcrumhq/feature/rules ([2144918](https://github.com/softcrumhq/eslint-config/commit/21449186f15290cce9f853fe28b83861285e09e6)), closes [#37](https://github.com/softcrumhq/eslint-config/issues/37)
-- Merge pull request #36 from softcrumhq/master ([3054c1f](https://github.com/softcrumhq/eslint-config/commit/3054c1fc5a092b355c61f0445ca9e37d254f269b)), closes [#36](https://github.com/softcrumhq/eslint-config/issues/36)
-
 # [1.4.0](https://github.com/softcrumhq/eslint-config/compare/v1.3.4...v1.4.0) (2021-04-01)
 
 ### Bug Fixes
@@ -38,20 +27,9 @@
 - Se agrega regla react/jsx-curly-brace-presence ([b99df2e](https://github.com/softcrumhq/eslint-config/commit/b99df2e8737b6bc68204f77228952394d0efdf3e))
 - Se agrega regla react/jsx-filename-extension ([5475b5f](https://github.com/softcrumhq/eslint-config/commit/5475b5fa680610afabac0813b6d179978fb220b3))
 
-### Chores
-
-- **changelog:** Update CHANGELOG.md ([847cbfc](https://github.com/softcrumhq/eslint-config/commit/847cbfc0cc8d04eacabda64738f36de0ace679e4))
-
 ### Features
 
 - Se agregan nuevas reglas y estructura para la libreria ([c323cf6](https://github.com/softcrumhq/eslint-config/commit/c323cf67002df04920715aa817170df2f7db0367))
-
-### Other
-
-- Merge pull request #35 from softcrumhq/release ([38eae63](https://github.com/softcrumhq/eslint-config/commit/38eae634c0639c89370a666c5944a22bde49a1c2)), closes [#35](https://github.com/softcrumhq/eslint-config/issues/35)
-- Merge pull request #34 from softcrumhq/develop ([291ac70](https://github.com/softcrumhq/eslint-config/commit/291ac70e4cf185f48e5782793b3c137d4ac0ae6b)), closes [#34](https://github.com/softcrumhq/eslint-config/issues/34)
-- Merge pull request #33 from softcrumhq/feature/rules ([7fb4471](https://github.com/softcrumhq/eslint-config/commit/7fb44713b46c5fc4135c1c7bf88ac1e1a79dd2d3)), closes [#33](https://github.com/softcrumhq/eslint-config/issues/33)
-- Merge pull request #32 from softcrumhq/master ([8f4fe2f](https://github.com/softcrumhq/eslint-config/commit/8f4fe2fc1b41b06f321d7ac35cea7b0bb75ef951)), closes [#32](https://github.com/softcrumhq/eslint-config/issues/32)
 
 ## [1.3.4](https://github.com/softcrumhq/eslint-config/compare/v1.3.3...v1.3.4) (2021-04-01)
 
