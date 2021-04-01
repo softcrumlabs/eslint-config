@@ -8,7 +8,7 @@ on:
 
 jobs:
   release:
-    if: contains(github.event.commits[0].message, 'chore(release)') == false && contains(github.event.commits[0].message, 'chore(changelogs)') == false
+    if: contains(github.event.commits[0].message, 'chore(release)') == false && contains(github.event.commits[0].message, 'chore(changelog)') == false
     name: Release [NodeJS ${{ matrix.node }}, OS ${{ matrix.os }}]
     runs-on: ${{ matrix.os }}
     strategy:
