@@ -45,8 +45,8 @@ module.exports = {
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md
     'import/order': 0,
 
-    //
-    //
+    // Enforce consistent linebreak style (linebreak-style)
+    // https://eslint.org/docs/rules/linebreak-style
     'linebreak-style': 0,
 
     //
