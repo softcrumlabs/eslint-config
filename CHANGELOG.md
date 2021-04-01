@@ -4,17 +4,6 @@
 
 - Se agregan las peerDependeencies de la libreria ([cfd6e06](https://github.com/softcrumhq/eslint-config/commit/cfd6e06f18d7f49798d49f64989170267ca4a1e8))
 
-### Chores
-
-- **changelog:** Update CHANGELOG.md ([74cd4a0](https://github.com/softcrumhq/eslint-config/commit/74cd4a0d95d5fd6006d62b390311d881783e1957))
-
-### Other
-
-- Merge pull request #43 from softcrumhq/release ([bea81e4](https://github.com/softcrumhq/eslint-config/commit/bea81e4a97efa3c126adee53096ecd3d8806100d)), closes [#43](https://github.com/softcrumhq/eslint-config/issues/43)
-- Merge pull request #42 from softcrumhq/develop ([0d920be](https://github.com/softcrumhq/eslint-config/commit/0d920be6a08ad2d6527e262c3b0cb9d7bb68f61c)), closes [#42](https://github.com/softcrumhq/eslint-config/issues/42)
-- Merge pull request #41 from softcrumhq/feature/rules ([d084496](https://github.com/softcrumhq/eslint-config/commit/d0844963b41683f8f344f3326830d7b4f94fbdcd)), closes [#41](https://github.com/softcrumhq/eslint-config/issues/41)
-- Merge pull request #40 from softcrumhq/master ([76b3388](https://github.com/softcrumhq/eslint-config/commit/76b33887025346a659a0891b07ef5e74064d08a6)), closes [#40](https://github.com/softcrumhq/eslint-config/issues/40)
-
 ## [1.4.1](https://github.com/softcrumhq/eslint-config/compare/v1.4.0...v1.4.1) (2021-04-01)
 
 ### Bug Fixes
