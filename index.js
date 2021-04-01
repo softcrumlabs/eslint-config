@@ -59,8 +59,8 @@ module.exports = {
       },
     ],
 
-    //
-    //
+    // Disallow return before else (no-else-return)
+    // https://eslint.org/docs/rules/no-else-return
     'no-else-return': 0,
 
     //
