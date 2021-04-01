@@ -49,8 +49,8 @@ module.exports = {
     // https://eslint.org/docs/rules/linebreak-style
     'linebreak-style': 0,
 
-    //
-    //
+    // Enforce a maximum line length (max-len)
+    // https://eslint.org/docs/rules/max-len
     'max-len': [
       'error',
       {
