@@ -87,8 +87,8 @@ module.exports = {
     // https://eslint.org/docs/rules/no-use-before-define
     'no-use-before-define': 0,
 
-    //
-    //
+    // Enforce consistent linebreak style for operators (operator-linebreak)
+    // https://eslint.org/docs/rules/operator-linebreak
     'operator-linebreak': 0,
 
     //
