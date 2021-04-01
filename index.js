@@ -67,8 +67,8 @@ module.exports = {
     // https://eslint.org/docs/rules/no-nonoctal-decimal-escape
     'no-nonoctal-decimal-escape': 0,
 
-    //
-    //
+    // Disallow Reassignment of Function Parameters (no-param-reassign)
+    // https://eslint.org/docs/rules/no-param-reassign
     'no-param-reassign': 0,
 
     //
