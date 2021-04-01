@@ -1,3 +1,19 @@
+- Se agrega regla no-nonoctal-decimal-escape ([6c765f1](https://github.com/softcrumhq/eslint-config/commit/6c765f1976533ef8dcf355a0e96caea3f5bebfb7))
+- Se agrega regla no-param-reassign ([80f51f5](https://github.com/softcrumhq/eslint-config/commit/80f51f5ff379dc176e9da52762bbaee733b758a1))
+- Se agrega regla no-undef ([19f8f65](https://github.com/softcrumhq/eslint-config/commit/19f8f65872bed8c1beb3db6886d10c95bca3c216))
+- Se agrega regla no-underscore-dangle ([8330b54](https://github.com/softcrumhq/eslint-config/commit/8330b54f82e6fab644c15338c4b7e8a2cc2bbcd9))
+- Se agrega regla no-unsafe-optional-chaining ([9eccde6](https://github.com/softcrumhq/eslint-config/commit/9eccde6599c51517e832d7a7b59b199747b473d7))
+- Se agrega regla no-use-before-define ([b105237](https://github.com/softcrumhq/eslint-config/commit/b105237fdd8bf8a4d97011accc467889bd0e76a2))
+- Se agrega regla operator-linebreak ([146046c](https://github.com/softcrumhq/eslint-config/commit/146046c543f38206ef6ac576fbed097c44d10b49))
+- Se agrega regla prefer-object-spread ([34c59df](https://github.com/softcrumhq/eslint-config/commit/34c59dfd928850624354e833ade626e859fcfa00))
+- Se agrega regla prettier/prettier ([e3fddd1](https://github.com/softcrumhq/eslint-config/commit/e3fddd13a692b35f347a38fdd0ce37ee9ad2f9ef))
+- Se agrega regla react/jsx-curly-brace-presence ([b99df2e](https://github.com/softcrumhq/eslint-config/commit/b99df2e8737b6bc68204f77228952394d0efdf3e))
+- Se agrega regla react/jsx-filename-extension ([5475b5f](https://github.com/softcrumhq/eslint-config/commit/5475b5fa680610afabac0813b6d179978fb220b3))
+
+### Features
+
+- Se agregan nuevas reglas y estructura para la libreria ([c323cf6](https://github.com/softcrumhq/eslint-config/commit/c323cf67002df04920715aa817170df2f7db0367))
+
 ## [1.3.4](https://github.com/softcrumhq/eslint-config/compare/v1.3.3...v1.3.4) (2021-04-01)
 
 ### Bug Fixes
