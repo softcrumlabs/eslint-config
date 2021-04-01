@@ -33,8 +33,8 @@ module.exports = {
     // https://eslint.org/docs/rules/global-require
     'global-require': 0,
 
-    //
-    //
+    // Forbid require() calls with expressions
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-dynamic-require.md
     'import/no-dynamic-require': 0,
 
     //
