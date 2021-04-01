@@ -91,8 +91,8 @@ module.exports = {
     // https://eslint.org/docs/rules/operator-linebreak
     'operator-linebreak': 0,
 
-    //
-    //
+    // Prefer use of an object spread over Object.assign (prefer-object-spread)
+    // https://eslint.org/docs/rules/prefer-object-spread
     'prefer-object-spread': 0,
 
     //
