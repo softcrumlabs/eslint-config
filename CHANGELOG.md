@@ -1,3 +1,10 @@
+## [1.3.4](https://github.com/softcrumhq/eslint-config/compare/v1.3.3...v1.3.4) (2021-04-01)
+
+### Bug Fixes
+
+- Se corrigen las condiciones para omitir la ejecucion de los pipelines ([dd1cf87](https://github.com/softcrumhq/eslint-config/commit/dd1cf87b7920cbb3085cccaa0c240c11e8e81593))
+- Se omiten ejecuciones de los pipelines si son del tipo release o changelog ([8a6d881](https://github.com/softcrumhq/eslint-config/commit/8a6d881be4178c42f5906723a815b1a2be33bb2d))
+
 ## [1.3.3](https://github.com/softcrumhq/eslint-config/compare/v1.3.2...v1.3.3) (2021-03-31)
 
 ### Bug Fixes
