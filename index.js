@@ -95,8 +95,8 @@ module.exports = {
     // https://eslint.org/docs/rules/prefer-object-spread
     'prefer-object-spread': 0,
 
-    //
-    //
+    // Opinionated Code Formatter
+    // https://github.com/prettier/prettier
     'prettier/prettier': ['error'],
 
     //
