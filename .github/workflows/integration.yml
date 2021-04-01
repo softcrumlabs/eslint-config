@@ -23,6 +23,7 @@ on:
 jobs:
 
   lintcheck:
+    if: contains(github.event.commits[0].message, 'chore(release)') == false && contains(github.event.commits[0].message, 'chore(changelog)') == false
     name: lint:check [NodeJS ${{ matrix.node-version }}, OS ${{ matrix.os }}]
     runs-on: ${{ matrix.os }}
     strategy:
@@ -52,6 +53,7 @@ jobs:
     timeout-minutes: 3
 
   lintduplicate:
+    if: contains(github.event.commits[0].message, 'chore(release)') == false && contains(github.event.commits[0].message, 'chore(changelog)') == false
     name: lint:duplicate [NodeJS ${{ matrix.node-version }}, OS ${{ matrix.os }}]
     runs-on: ${{ matrix.os }}
     strategy:
@@ -81,6 +83,7 @@ jobs:
     timeout-minutes: 3
 
   test:
+    if: contains(github.event.commits[0].message, 'chore(release)') == false && contains(github.event.commits[0].message, 'chore(changelog)') == false
     name: test [NodeJS ${{ matrix.node-version }}, OS ${{ matrix.os }}]
     needs: [lintcheck, lintduplicate]
     runs-on: ${{ matrix.os }}
