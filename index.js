@@ -75,8 +75,8 @@ module.exports = {
     // https://eslint.org/docs/rules/no-undef
     'no-undef': 0,
 
-    //
-    //
+    // Disallow dangling underscores in identifiers (no-underscore-dangle)
+    // https://eslint.org/docs/rules/no-underscore-dangle
     'no-underscore-dangle': 0,
 
     //
