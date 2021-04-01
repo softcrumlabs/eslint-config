@@ -71,8 +71,8 @@ module.exports = {
     // https://eslint.org/docs/rules/no-param-reassign
     'no-param-reassign': 0,
 
-    //
-    //
+    // Disallow Undeclared Variables (no-undef)
+    // https://eslint.org/docs/rules/no-undef
     'no-undef': 0,
 
     //
