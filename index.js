@@ -63,8 +63,8 @@ module.exports = {
     // https://eslint.org/docs/rules/no-else-return
     'no-else-return': 0,
 
-    //
-    //
+    // Disallow \8 and \9 escape sequences in string literals (no-nonoctal-decimal-escape)
+    // https://eslint.org/docs/rules/no-nonoctal-decimal-escape
     'no-nonoctal-decimal-escape': 0,
 
     //
