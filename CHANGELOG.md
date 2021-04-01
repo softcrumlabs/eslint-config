@@ -1,3 +1,41 @@
+# [1.4.0](https://github.com/softcrumhq/eslint-config/compare/v1.3.4...v1.4.0) (2021-04-01)
+
+### Bug Fixes
+
+- Se agrega regla global-require ([1e73137](https://github.com/softcrumhq/eslint-config/commit/1e731378338d4ebc4b9f083de6900365fd133969))
+- Se agrega regla import/no-dynamic-require ([cd6ad85](https://github.com/softcrumhq/eslint-config/commit/cd6ad8578cbaeb4dbd1b4cd3f3fce681e0012533))
+- Se agrega regla import/no-useless-path-segments ([0199626](https://github.com/softcrumhq/eslint-config/commit/019962678d7aa62788d6eaa6cc1d243cf7aeaa6a))
+- Se agrega regla import/order ([ee0ffbe](https://github.com/softcrumhq/eslint-config/commit/ee0ffbe42d841006c6a2ec5e622e2f7c4be4967d))
+- Se agrega regla linebreak-style ([12eb8a2](https://github.com/softcrumhq/eslint-config/commit/12eb8a2315d0954f77742b961d717e6cbe3d078c))
+- Se agrega regla max-len ([3f164c0](https://github.com/softcrumhq/eslint-config/commit/3f164c0ba97209c521fc5442426788ed45956e7a))
+- Se agrega regla no-else-return ([b9553ad](https://github.com/softcrumhq/eslint-config/commit/b9553adf5f5dae036b41612d96462a23b69b2b00))
+- Se agrega regla no-nonoctal-decimal-escape ([6c765f1](https://github.com/softcrumhq/eslint-config/commit/6c765f1976533ef8dcf355a0e96caea3f5bebfb7))
+- Se agrega regla no-param-reassign ([80f51f5](https://github.com/softcrumhq/eslint-config/commit/80f51f5ff379dc176e9da52762bbaee733b758a1))
+- Se agrega regla no-undef ([19f8f65](https://github.com/softcrumhq/eslint-config/commit/19f8f65872bed8c1beb3db6886d10c95bca3c216))
+- Se agrega regla no-underscore-dangle ([8330b54](https://github.com/softcrumhq/eslint-config/commit/8330b54f82e6fab644c15338c4b7e8a2cc2bbcd9))
+- Se agrega regla no-unsafe-optional-chaining ([9eccde6](https://github.com/softcrumhq/eslint-config/commit/9eccde6599c51517e832d7a7b59b199747b473d7))
+- Se agrega regla no-use-before-define ([b105237](https://github.com/softcrumhq/eslint-config/commit/b105237fdd8bf8a4d97011accc467889bd0e76a2))
+- Se agrega regla operator-linebreak ([146046c](https://github.com/softcrumhq/eslint-config/commit/146046c543f38206ef6ac576fbed097c44d10b49))
+- Se agrega regla prefer-object-spread ([34c59df](https://github.com/softcrumhq/eslint-config/commit/34c59dfd928850624354e833ade626e859fcfa00))
+- Se agrega regla prettier/prettier ([e3fddd1](https://github.com/softcrumhq/eslint-config/commit/e3fddd13a692b35f347a38fdd0ce37ee9ad2f9ef))
+- Se agrega regla react/jsx-curly-brace-presence ([b99df2e](https://github.com/softcrumhq/eslint-config/commit/b99df2e8737b6bc68204f77228952394d0efdf3e))
+- Se agrega regla react/jsx-filename-extension ([5475b5f](https://github.com/softcrumhq/eslint-config/commit/5475b5fa680610afabac0813b6d179978fb220b3))
+
+### Chores
+
+- **changelog:** Update CHANGELOG.md ([847cbfc](https://github.com/softcrumhq/eslint-config/commit/847cbfc0cc8d04eacabda64738f36de0ace679e4))
+
+### Features
+
+- Se agregan nuevas reglas y estructura para la libreria ([c323cf6](https://github.com/softcrumhq/eslint-config/commit/c323cf67002df04920715aa817170df2f7db0367))
+
+### Other
+
+- Merge pull request #35 from softcrumhq/release ([38eae63](https://github.com/softcrumhq/eslint-config/commit/38eae634c0639c89370a666c5944a22bde49a1c2)), closes [#35](https://github.com/softcrumhq/eslint-config/issues/35)
+- Merge pull request #34 from softcrumhq/develop ([291ac70](https://github.com/softcrumhq/eslint-config/commit/291ac70e4cf185f48e5782793b3c137d4ac0ae6b)), closes [#34](https://github.com/softcrumhq/eslint-config/issues/34)
+- Merge pull request #33 from softcrumhq/feature/rules ([7fb4471](https://github.com/softcrumhq/eslint-config/commit/7fb44713b46c5fc4135c1c7bf88ac1e1a79dd2d3)), closes [#33](https://github.com/softcrumhq/eslint-config/issues/33)
+- Merge pull request #32 from softcrumhq/master ([8f4fe2f](https://github.com/softcrumhq/eslint-config/commit/8f4fe2fc1b41b06f321d7ac35cea7b0bb75ef951)), closes [#32](https://github.com/softcrumhq/eslint-config/issues/32)
+
 ## [1.3.4](https://github.com/softcrumhq/eslint-config/compare/v1.3.3...v1.3.4) (2021-04-01)
 
 ### Bug Fixes
