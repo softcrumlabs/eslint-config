@@ -99,8 +99,8 @@ module.exports = {
     // https://github.com/prettier/prettier
     'prettier/prettier': ['error'],
 
-    //
-    //
+    // Enforce curly braces or disallow unnecessary curly braces in JSX props and/or children. (react/jsx-curly-brace-presence)
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-brace-presence.md
     'react/jsx-curly-brace-presence': 0,
 
     //
