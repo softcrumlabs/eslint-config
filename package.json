@@ -41,7 +41,7 @@
     "clean": "rimraf -rf dist node_modules/.cache",
     "lint:check": "eslint . --fix",
     "lint:duplicate": "yarn run jscpd -i '**/+(.github|coverage|node_modules)/**' -t '0'",
-    "test": "cross-env CI=true jest --coverage --detectOpenHandles --passWithNoTests --runInBand --watchAll=false"
+    "test": "jest --coverage --detectOpenHandles --passWithNoTests --runInBand --watchAll=false"
   },
   "dependencies": {},
   "devDependencies": {

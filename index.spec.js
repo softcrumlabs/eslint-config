@@ -2,7 +2,7 @@
  *
  *
  */
-const index = require('./index');
+const base = require('./index');
 
 /**
  * Configuracion del contador
@@ -18,25 +18,36 @@ function getCounter() {
  * Starting tests
  *
  */
-describe('Test - Rules index', () => {
+describe('Test - Rules base', () => {
   /**
    *
    * Se valida si el archivo se encuentra definido
    */
   test(`Test ${getCounter()} - File`, async () => {
     counter += 1;
-    expect(index).toBeDefined();
+    expect(base).toBeDefined();
   }, 500);
   /**
    *
-   * Se valida si en el archivo se encuentra definidas las extensiones
+   * Se valida si en el archivo se encuentra definidas las configuraciones
    */
-  test(`Test ${getCounter()} - Extends`, async () => {
+  test(`Test ${getCounter()} - ParserOptions`, async () => {
     counter += 1;
-    expect(index).toBeDefined();
-    expect(index.extends).toBeDefined();
-    expect(Array.isArray(index.extends)).toEqual(true);
-    expect(index.extends.length).toBeGreaterThanOrEqual(0);
+    expect(base).toBeDefined();
+    expect(base.parserOptions).toBeDefined();
+    expect(typeof base.parserOptions).toEqual('object');
+    expect(Object.keys(base.parserOptions).length).toBeGreaterThanOrEqual(0);
+  }, 500);
+  /**
+   *
+   * Se valida si en el archivo se encuentra definidas los complementos
+   */
+  test(`Test ${getCounter()} - Plugins`, async () => {
+    counter += 1;
+    expect(base).toBeDefined();
+    expect(base.plugins).toBeDefined();
+    expect(Array.isArray(base.plugins)).toEqual(true);
+    expect(base.plugins.length).toBeGreaterThanOrEqual(0);
   }, 500);
   /**
    *
@@ -44,9 +55,9 @@ describe('Test - Rules index', () => {
    */
   test(`Test ${getCounter()} - Rules`, async () => {
     counter += 1;
-    expect(index).toBeDefined();
-    expect(index.rules).toBeDefined();
-    expect(typeof index.rules).toEqual('object');
-    expect(Object.keys(index.rules).length).toEqual(0);
+    expect(base).toBeDefined();
+    expect(base.rules).toBeDefined();
+    expect(typeof base.rules).toEqual('object');
+    expect(Object.keys(base.rules).length).toBeGreaterThanOrEqual(0);
   }, 500);
 });
