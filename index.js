@@ -103,16 +103,8 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-brace-presence.md
     'react/jsx-curly-brace-presence': 0,
 
-    //
-    //
+    // Restrict file extensions that may contain JSX (react/jsx-filename-extension)
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-filename-extension.md
     'react/jsx-filename-extension': 0,
-
-    //
-    //
-    'react/jsx-no-constructed-context-values': 0,
-
-    //
-    //
-    'react/no-unstable-nested-components': 0,
   },
 };
