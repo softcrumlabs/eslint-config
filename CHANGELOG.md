@@ -1,3 +1,20 @@
+## [1.4.1](https://github.com/softcrumhq/eslint-config/compare/v1.4.0...v1.4.1) (2021-04-01)
+
+### Bug Fixes
+
+- Se agregan los logs correspondientes al archivo changelog.js ([7811764](https://github.com/softcrumhq/eslint-config/commit/78117646d9edba477c1223e4a53931b515251445))
+
+### Chores
+
+- **changelog:** Update CHANGELOG.md ([5502196](https://github.com/softcrumhq/eslint-config/commit/55021961ac07adfdf2b2657a6a51eec879ff9443))
+
+### Other
+
+- Merge pull request #39 from softcrumhq/release ([11efa3a](https://github.com/softcrumhq/eslint-config/commit/11efa3a473e015aec89f3fcdc5e7f974bbf8a854)), closes [#39](https://github.com/softcrumhq/eslint-config/issues/39)
+- Merge pull request #38 from softcrumhq/develop ([ca27a28](https://github.com/softcrumhq/eslint-config/commit/ca27a28ebd921d6eb5bb97c670d4df15ea641095)), closes [#38](https://github.com/softcrumhq/eslint-config/issues/38)
+- Merge pull request #37 from softcrumhq/feature/rules ([2144918](https://github.com/softcrumhq/eslint-config/commit/21449186f15290cce9f853fe28b83861285e09e6)), closes [#37](https://github.com/softcrumhq/eslint-config/issues/37)
+- Merge pull request #36 from softcrumhq/master ([3054c1f](https://github.com/softcrumhq/eslint-config/commit/3054c1fc5a092b355c61f0445ca9e37d254f269b)), closes [#36](https://github.com/softcrumhq/eslint-config/issues/36)
+
 # [1.4.0](https://github.com/softcrumhq/eslint-config/compare/v1.3.4...v1.4.0) (2021-04-01)
 
 ### Bug Fixes
