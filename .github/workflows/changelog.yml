@@ -6,7 +6,7 @@ on:
 
 jobs:
   changelog:
-    name: Changelog [NodeJS ${{ matrix.node-version }}, OS ${{ matrix.os }}]
+    name: Pipeline
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
