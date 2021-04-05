@@ -1,3 +1,25 @@
+## [1.5.3](https://github.com/softcrumhq/eslint-config/compare/v1.5.2...v1.5.3) (2021-04-05)
+
+### Bug Fixes
+
+- Se actualiza libreria para pre-commit ([07dd3c6](https://github.com/softcrumhq/eslint-config/commit/07dd3c66fe13e05ca95b48a8f0681b36d5d7833d))
+- Se agrega libreria para hooks ([e74f808](https://github.com/softcrumhq/eslint-config/commit/e74f808b5906ffc549c1c4e87d8881d514fa44a0))
+- Se agrega libreria para hooks ([27c4227](https://github.com/softcrumhq/eslint-config/commit/27c4227bc03790828ba993983aa2a61c5d59f5fa))
+- Se agrega validacion al package.json ([6abdec3](https://github.com/softcrumhq/eslint-config/commit/6abdec3282a2189a174ce230c30f35fe8368ca62))
+- Se agrega validacion de pre-commit al repositorio ([c1abf82](https://github.com/softcrumhq/eslint-config/commit/c1abf82be67a8d23ac2801a419c0f594ae8b6483))
+
+### Chores
+
+- **changelog:** Update CHANGELOG.md ([2b69a29](https://github.com/softcrumhq/eslint-config/commit/2b69a2944d7a829c301ebca42a4972ce9b5dc329))
+
+### Other
+
+- Merge pull request #57 from softcrumhq/release ([cc91a3a](https://github.com/softcrumhq/eslint-config/commit/cc91a3a0ac596a61bd25a5d50e40197c785a0121)), closes [#57](https://github.com/softcrumhq/eslint-config/issues/57)
+- Merge pull request #56 from softcrumhq/develop ([a1f002a](https://github.com/softcrumhq/eslint-config/commit/a1f002a155db86ca5baec802c4cf56f44663dafc)), closes [#56](https://github.com/softcrumhq/eslint-config/issues/56)
+- Merge pull request #55 from softcrumhq/feature/change-readme ([e08c7bc](https://github.com/softcrumhq/eslint-config/commit/e08c7bc13b8a49aaf2fe0fca27b80099cb39a0a3)), closes [#55](https://github.com/softcrumhq/eslint-config/issues/55)
+- Merge pull request #54 from softcrumhq/master ([f43fc19](https://github.com/softcrumhq/eslint-config/commit/f43fc19642f2d374b7a1dd7ede4d80c2bb9ac0bf)), closes [#54](https://github.com/softcrumhq/eslint-config/issues/54)
+- Merge pull request #53 from softcrumhq/develop ([b1f0b54](https://github.com/softcrumhq/eslint-config/commit/b1f0b543a1f175a6ea247ffe26de7549d459eb99)), closes [#53](https://github.com/softcrumhq/eslint-config/issues/53)
+
 ## [1.5.2](https://github.com/softcrumhq/eslint-config/compare/v1.5.1...v1.5.2) (2021-04-05)
 
 ### Bug Fixes
