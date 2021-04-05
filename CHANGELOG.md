@@ -4,19 +4,9 @@
 
 - Se corrige problema en la instalacion de dependencias ([c8de8be](https://github.com/softcrumhq/eslint-config/commit/c8de8bee95ad38170c61b10c8114857e1f436a3a))
 
-### Chores
-
-- **changelog:** Update CHANGELOG.md ([89f6e9e](https://github.com/softcrumhq/eslint-config/commit/89f6e9eab7acc6d3f9c20c6efed5c384358b41c7))
-
 ### Documentation
 
 - Se incorpora la documentacion para los scripts en el archivo package.json ([ed8e651](https://github.com/softcrumhq/eslint-config/commit/ed8e6514f3d5b7ec351d1440023078f884ff2244))
-
-### Other
-
-- Merge pull request #52 from softcrumhq/develop ([89cb19e](https://github.com/softcrumhq/eslint-config/commit/89cb19ed7e374d48f4d8e5ce21208486b859989a)), closes [#52](https://github.com/softcrumhq/eslint-config/issues/52)
-- Merge pull request #51 from softcrumhq/feature/change-readme ([d66131a](https://github.com/softcrumhq/eslint-config/commit/d66131aa4ef34304a1dfef0614d6e96d7985411b)), closes [#51](https://github.com/softcrumhq/eslint-config/issues/51)
-- Merge pull request #50 from softcrumhq/master ([3bde1ab](https://github.com/softcrumhq/eslint-config/commit/3bde1ab34f17b6ce4be91468aa61d674a7b6344b)), closes [#50](https://github.com/softcrumhq/eslint-config/issues/50)
 
 ## [1.5.1](https://github.com/softcrumhq/eslint-config/compare/v1.5.0...v1.5.1) (2021-04-05)
 
