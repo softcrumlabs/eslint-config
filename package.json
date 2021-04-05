@@ -41,7 +41,6 @@
     "clean": "rimraf -rf dist node_modules",
     "lint:check": "eslint . --fix",
     "lint:duplicate": "yarn run jscpd -i '**/+(.github|coverage|node_modules)/**' -t '0'",
-    "preinstall": "yarn clean",
     "test": "jest --coverage --detectOpenHandles --passWithNoTests --runInBand --watchAll=false"
   },
   "dependencies": {},
