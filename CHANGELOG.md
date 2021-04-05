@@ -1,3 +1,9 @@
+## [1.5.1](https://github.com/softcrumhq/eslint-config/compare/v1.5.0...v1.5.1) (2021-04-05)
+
+### Bug Fixes
+
+- Se verifica el archivo de resultado de las pruebas ([507279a](https://github.com/softcrumhq/eslint-config/commit/507279ae37b4efeac94f2bacb6e82d2a22ea8311))
+
 # [1.5.0](https://github.com/softcrumhq/eslint-config/compare/v1.4.2...v1.5.0) (2021-04-05)
 
 ### Bug Fixes
