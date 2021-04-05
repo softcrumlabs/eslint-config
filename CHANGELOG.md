@@ -1,3 +1,25 @@
+# [1.5.0](https://github.com/softcrumhq/eslint-config/compare/v1.4.2...v1.5.0) (2021-04-05)
+
+### Bug Fixes
+
+- Se corrige problema en la documentacion del archivo README.md ([b9ddfe5](https://github.com/softcrumhq/eslint-config/commit/b9ddfe5baf2ffd652701b7036f03e99037de5732))
+- Se unifican los steps en todos los pipelines ([0d54a57](https://github.com/softcrumhq/eslint-config/commit/0d54a57d43263d9891c4f2cc3d28c0ab5ca0ba3b))
+
+### Documentation
+
+- Se agrega la documentacion del archivo index.spec.js ([6d9f476](https://github.com/softcrumhq/eslint-config/commit/6d9f476297ba9a8c33370ed8f1e2f683b1ec4d0b))
+
+### Features
+
+- Se agrega la documentación del proceso de instalacion y configuracion de eslint-config ([bc4995c](https://github.com/softcrumhq/eslint-config/commit/bc4995c2b6898fd4bc400e84fe0828042e6709db))
+- Se agregan directorios donde base en la configuracion de la libreria ([ccbdd0f](https://github.com/softcrumhq/eslint-config/commit/ccbdd0f01f96eb3cff47df8bff9b0af7617e4cf8))
+
+## [1.4.2](https://github.com/softcrumhq/eslint-config/compare/v1.4.1...v1.4.2) (2021-04-01)
+
+### Bug Fixes
+
+- Se agregan las peerDependencies de la libreria ([cfd6e06](https://github.com/softcrumhq/eslint-config/commit/cfd6e06f18d7f49798d49f64989170267ca4a1e8))
+
 ## [1.4.1](https://github.com/softcrumhq/eslint-config/compare/v1.4.0...v1.4.1) (2021-04-01)
 
 ### Bug Fixes
