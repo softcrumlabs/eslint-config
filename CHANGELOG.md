@@ -5,10 +5,6 @@
 - Se corrige problema en la documentacion del archivo README.md ([b9ddfe5](https://github.com/softcrumhq/eslint-config/commit/b9ddfe5baf2ffd652701b7036f03e99037de5732))
 - Se unifican los steps en todos los pipelines ([0d54a57](https://github.com/softcrumhq/eslint-config/commit/0d54a57d43263d9891c4f2cc3d28c0ab5ca0ba3b))
 
-### Chores
-
-- **changelog:** Update CHANGELOG.md ([3962347](https://github.com/softcrumhq/eslint-config/commit/39623476a46d7575de628fefe856c27fb5fab654))
-
 ### Documentation
 
 - Se agrega la documentacion del archivo index.spec.js ([6d9f476](https://github.com/softcrumhq/eslint-config/commit/6d9f476297ba9a8c33370ed8f1e2f683b1ec4d0b))
@@ -17,11 +13,6 @@
 
 - Se agrega la documentación del proceso de instalacion y configuracion de eslint-config ([bc4995c](https://github.com/softcrumhq/eslint-config/commit/bc4995c2b6898fd4bc400e84fe0828042e6709db))
 - Se agregan directorios donde base en la configuracion de la libreria ([ccbdd0f](https://github.com/softcrumhq/eslint-config/commit/ccbdd0f01f96eb3cff47df8bff9b0af7617e4cf8))
-
-### Other
-
-- Merge pull request #45 from softcrumhq/feature/change-readme ([47242a2](https://github.com/softcrumhq/eslint-config/commit/47242a21ce5d1c1a659cf9dd1f88fe8744f7d9ef)), closes [#45](https://github.com/softcrumhq/eslint-config/issues/45)
-- Merge pull request #44 from softcrumhq/master ([8f25ace](https://github.com/softcrumhq/eslint-config/commit/8f25ace8ab209bd2741d20efbecd70de4b8638d4)), closes [#44](https://github.com/softcrumhq/eslint-config/issues/44)
 
 ## [1.4.2](https://github.com/softcrumhq/eslint-config/compare/v1.4.1...v1.4.2) (2021-04-01)
 
