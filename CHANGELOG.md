@@ -1,3 +1,24 @@
+# [1.6.0](https://github.com/softcrumhq/eslint-config/compare/v1.5.3...v1.6.0) (2021-04-05)
+
+### Bug Fixes
+
+- Se agrega al equipo de arquitectura como revisor de cÂodigo ([ef5e046](https://github.com/softcrumhq/eslint-config/commit/ef5e0465734fcd267aa5fac6981cab3d383216b5))
+
+### Chores
+
+- **changelog:** Update CHANGELOG.md ([f989700](https://github.com/softcrumhq/eslint-config/commit/f989700cffa551c3de647d03777e1176af427aba))
+
+### Features
+
+- Se agregan los revisores por defecto para el repositorio ([6f8fcc9](https://github.com/softcrumhq/eslint-config/commit/6f8fcc954fb989fa16cf1014dc1db6cdd250c7cb))
+
+### Other
+
+- Merge pull request #61 from softcrumhq/release ([75e77b6](https://github.com/softcrumhq/eslint-config/commit/75e77b60c4e9549aef5d6268ea86cb61c0c30bb0)), closes [#61](https://github.com/softcrumhq/eslint-config/issues/61)
+- Merge pull request #60 from softcrumhq/develop ([2a249aa](https://github.com/softcrumhq/eslint-config/commit/2a249aae5d2ef62cce2cdbe2283382aa1328401f)), closes [#60](https://github.com/softcrumhq/eslint-config/issues/60)
+- Merge pull request #59 from softcrumhq/feature/change-readme ([40cd625](https://github.com/softcrumhq/eslint-config/commit/40cd6257901d07cb3d445d761306b855731f89dc)), closes [#59](https://github.com/softcrumhq/eslint-config/issues/59)
+- Merge pull request #58 from softcrumhq/master ([c7b1a0b](https://github.com/softcrumhq/eslint-config/commit/c7b1a0b996b566d826fabee06044afea41c5ae34)), closes [#58](https://github.com/softcrumhq/eslint-config/issues/58)
+
 ## [1.5.3](https://github.com/softcrumhq/eslint-config/compare/v1.5.2...v1.5.3) (2021-04-05)
 
 ### Bug Fixes
