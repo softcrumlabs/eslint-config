@@ -1,3 +1,13 @@
+## [1.5.2](https://github.com/softcrumhq/eslint-config/compare/v1.5.1...v1.5.2) (2021-04-05)
+
+### Bug Fixes
+
+- Se corrige problema en la instalacion de dependencias ([c8de8be](https://github.com/softcrumhq/eslint-config/commit/c8de8bee95ad38170c61b10c8114857e1f436a3a))
+
+### Documentation
+
+- Se incorpora la documentacion para los scripts en el archivo package.json ([ed8e651](https://github.com/softcrumhq/eslint-config/commit/ed8e6514f3d5b7ec351d1440023078f884ff2244))
+
 ## [1.5.1](https://github.com/softcrumhq/eslint-config/compare/v1.5.0...v1.5.1) (2021-04-05)
 
 ### Bug Fixes
