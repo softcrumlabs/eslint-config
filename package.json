@@ -35,6 +35,9 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
+  "simple-git-hooks": {
+    "pre-commit": "yarn ci"
+  },
   "scripts": {
     "changelog": "node ./.github/changelog.js",
     "ci": "yarn run lint:check && yarn run lint:duplicate && yarn run test",
