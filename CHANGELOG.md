@@ -4,18 +4,6 @@
 
 - Se verifica el archivo de resultado de las pruebas ([507279a](https://github.com/softcrumhq/eslint-config/commit/507279ae37b4efeac94f2bacb6e82d2a22ea8311))
 
-### Chores
-
-- **changelog:** Update CHANGELOG.md ([baaab1f](https://github.com/softcrumhq/eslint-config/commit/baaab1f39369f9169cbd316eafa5d5a1f7801f81))
-
-### Other
-
-- Merge pull request #49 from softcrumhq/release ([acca5b0](https://github.com/softcrumhq/eslint-config/commit/acca5b03e9657f1a31e241952ead352e0e88b379)), closes [#49](https://github.com/softcrumhq/eslint-config/issues/49)
-- Merge pull request #46 from softcrumhq/develop ([2ce170c](https://github.com/softcrumhq/eslint-config/commit/2ce170cbfebd10e39025cdc3e29c8d8a36436ca3)), closes [#46](https://github.com/softcrumhq/eslint-config/issues/46)
-- Merge pull request #48 from softcrumhq/feature/change-readme ([a8afb1f](https://github.com/softcrumhq/eslint-config/commit/a8afb1f234d1d93a344a439a9c2f4332ae6cc348)), closes [#48](https://github.com/softcrumhq/eslint-config/issues/48)
-- Merge branch 'develop' of https://github.com/softcrumhq/eslint-config into feature/change-readme ([e5cd248](https://github.com/softcrumhq/eslint-config/commit/e5cd248f7bfdc3b64321fb6ebd39782d57113c0e))
-- Merge pull request #47 from softcrumhq/master ([f75e5e0](https://github.com/softcrumhq/eslint-config/commit/f75e5e04d00b89e4c4eae44dbba5d4e937657b40)), closes [#47](https://github.com/softcrumhq/eslint-config/issues/47)
-
 # [1.5.0](https://github.com/softcrumhq/eslint-config/compare/v1.4.2...v1.5.0) (2021-04-05)
 
 ### Bug Fixes
