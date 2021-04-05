@@ -29,7 +29,7 @@ Nuestra librería contiene todas las buenas prácticas de ESLint, incluidas ECMA
 
 ### Instalación
 
-1. Instale las versiones correctas para cada uno de los paquetes, tal como se enumeran con el comando:
+Instale las versiones correctas para cada uno de los paquetes, tal como se enumeran con el comando:
 
 ```sh
 npm info @softcrumhq/eslint-config@latest peerDependencies
@@ -58,7 +58,7 @@ Lo anterior produce y ejecuta el siguiente comando:
 yarn install --dev @softcrumhq/eslint-config eslint@#.#.# eslint-plugin-import@#.#.# eslint-plugin-jsx-a11y@#.#.# eslint-plugin-prettier@#.#.# eslint-plugin-react@#.#.# eslint-plugin-react-hooks@^#.#.#
 ```
 
-If using **npm < 5**, Windows users can either install all the peer dependencies manually, or use the [install-peerdeps](https://github.com/nathanhleung/install-peerdeps) cli tool.
+Si usa **NPM < 5**, en máquinas Windows, pueden instalar todas las dependencias manualmente o usar la herramienta CLI [install-peerdeps](https://github.com/nathanhleung/install-peerdeps).
 
 ```sh
 npm install -g install-peerdeps
@@ -70,7 +70,9 @@ El CLI ejecutará el siguiente comando:
 yarn install --dev @softcrumhq/eslint-config eslint@#.#.# eslint-plugin-import@#.#.# eslint-plugin-jsx-a11y@#.#.# eslint-plugin-prettier@#.#.# eslint-plugin-react@#.#.# eslint-plugin-react-hooks@^#.#.#
 ```
 
-2. Agregue la siguiente configuración en el archivo `.eslintrc` del repositorio.
+### Configuración
+
+Agregue la siguiente configuración en el archivo `.eslintrc` del repositorio.
 
 ```sh
 {
