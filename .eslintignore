@@ -1,4 +1,6 @@
+bin
 build
 coverage
 dist
+logs
 node_modules

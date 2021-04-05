@@ -1,12 +1,12 @@
 /**
- *
- *
+ * Declaracion de dependencias
+ * Se declaran todas las dependencias del proyecto
  */
 const base = require('./index');
 
 /**
  * Configuracion del contador
- *
+ * Se inicializa el contador con la numeracion autoincremental
  */
 let counter = 0;
 function getCounter() {
@@ -15,12 +15,12 @@ function getCounter() {
 }
 
 /**
- * Starting tests
- *
+ * Pruebas del proyecto
+ * Se inicializan las pruebas del proyecto
  */
 describe('Test - Rules base', () => {
   /**
-   *
+   * Prueba de definicion
    * Se valida si el archivo se encuentra definido
    */
   test(`Test ${getCounter()} - File`, async () => {
@@ -28,7 +28,7 @@ describe('Test - Rules base', () => {
     expect(base).toBeDefined();
   }, 500);
   /**
-   *
+   * Prueba de validez de atributo parserOptions
    * Se valida si en el archivo se encuentra definidas las configuraciones
    */
   test(`Test ${getCounter()} - ParserOptions`, async () => {
@@ -39,7 +39,7 @@ describe('Test - Rules base', () => {
     expect(Object.keys(base.parserOptions).length).toBeGreaterThanOrEqual(0);
   }, 500);
   /**
-   *
+   * Prueba de validez de atributo plugins
    * Se valida si en el archivo se encuentra definidas los complementos
    */
   test(`Test ${getCounter()} - Plugins`, async () => {
@@ -50,7 +50,7 @@ describe('Test - Rules base', () => {
     expect(base.plugins.length).toBeGreaterThanOrEqual(0);
   }, 500);
   /**
-   *
+   * Prueba de validez de atributo rules
    * Se valida si en el archivo se encuentra definidas las reglas
    */
   test(`Test ${getCounter()} - Rules`, async () => {

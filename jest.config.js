@@ -4,9 +4,9 @@
  */
 module.exports = {
   collectCoverage: true,
-  collectCoverageFrom: ['./rules/*.{js,jsx,ts}', '*.{js,jsx,ts}'],
+  collectCoverageFrom: ['*.{js,jsx,ts}'],
   coverageDirectory: './coverage/',
-  coveragePathIgnorePatterns: ['./coverage', './dist', './logs', './node_modules', 'jest.config.js'],
+  coveragePathIgnorePatterns: ['./bin', './build', './coverage', './dist', './logs', './node_modules', 'jest.config.js'],
   coverageThreshold: {
     global: {
       branches: 100,

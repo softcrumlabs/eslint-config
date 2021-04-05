@@ -9,7 +9,7 @@ on:
 jobs:
   release:
     if: contains(github.event.commits[0].message, 'chore(release)') == false && contains(github.event.commits[0].message, 'chore(changelog)') == false
-    name: Release [NodeJS ${{ matrix.node }}, OS ${{ matrix.os }}]
+    name: Pipeline
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
