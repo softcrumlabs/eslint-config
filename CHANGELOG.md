@@ -2,7 +2,7 @@
 
 ### Bug Fixes
 
-- Se agregan las peerDependeencies de la libreria ([cfd6e06](https://github.com/softcrumhq/eslint-config/commit/cfd6e06f18d7f49798d49f64989170267ca4a1e8))
+- Se agregan las peerDependencies de la libreria ([cfd6e06](https://github.com/softcrumhq/eslint-config/commit/cfd6e06f18d7f49798d49f64989170267ca4a1e8))
 
 ## [1.4.1](https://github.com/softcrumhq/eslint-config/compare/v1.4.0...v1.4.1) (2021-04-01)
 
