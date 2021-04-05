@@ -38,7 +38,7 @@
   "scripts": {
     "changelog": "node ./.github/changelog.js",
     "ci": "yarn run lint:check && yarn run lint:duplicate && yarn run test",
-    "clean": "rimraf -rf dist node_modules/.cache",
+    "clean": "rimraf -rf dist node_modules",
     "lint:check": "eslint . --fix",
     "lint:duplicate": "yarn run jscpd -i '**/+(.github|coverage|node_modules)/**' -t '0'",
     "test": "jest --coverage --detectOpenHandles --passWithNoTests --runInBand --watchAll=false"

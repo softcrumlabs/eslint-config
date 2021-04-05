@@ -81,6 +81,25 @@ Agregue la siguiente configuración en el archivo `.eslintrc` del repositorio.
 }
 ```
 
+### Scripts en package.json
+
+Luego de agregar el archivo `.eslintrc` en nuestro repositorio, debemos incorporar los siguientes comandos en la sección `scripts` del archivo `package.json`, tal como se visualiza en el siguiente código:
+
+```sh
+{
+  ...
+  "scripts": {
+    "changelog": "node ./.github/changelog.js",
+    "ci": "yarn run lint:check && yarn run lint:duplicate && yarn run test",
+    "clean": "rimraf -rf dist node_modules/.cache",
+    "lint:check": "eslint . --fix",
+    "lint:duplicate": "yarn run jscpd -i '**/+(.github|coverage|node_modules)/**' -t '0'",
+    "test": "jest --coverage --detectOpenHandles --passWithNoTests --runInBand --watchAll=false"
+  }
+  ...
+}
+```
+
 ## Mejorando esta configuración
 
 Considere agregar pruebas si se encuentra realizando cambios en reglas complicadas, como en cualquier cosa que involucre expresiones regulares.
