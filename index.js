@@ -37,6 +37,19 @@ module.exports = {
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-dynamic-require.md
     'import/no-dynamic-require': 0,
 
+    // Ensures an imported module can be resolved to a module on the local filesystem
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unresolved.md
+    'import/no-unresolved': [
+      2,
+      {
+        ignore: [
+          '^@docusaurus',
+          '^@generated',
+          '^@theme',
+        ],
+      },
+    ],
+
     // Use this rule to prevent unnecessary path segments in import and require statements
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-useless-path-segments.md
     'import/no-useless-path-segments': 0,
