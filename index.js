@@ -33,6 +33,10 @@ module.exports = {
     // https://eslint.org/docs/rules/global-require
     'global-require': 0,
 
+    // Ensure consistent use of file extension within the import path
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md
+    'import/extensions': 0,
+
     // Forbid require() calls with expressions
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-dynamic-require.md
     'import/no-dynamic-require': 0,
@@ -42,11 +46,7 @@ module.exports = {
     'import/no-unresolved': [
       2,
       {
-        ignore: [
-          '^@docusaurus',
-          '^@generated',
-          '^@theme',
-        ],
+        ignore: ['^@docusaurus', '^@generated', '^@theme'],
       },
     ],
 
