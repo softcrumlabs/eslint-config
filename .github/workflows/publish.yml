@@ -1,4 +1,4 @@
-name: Pipeline Changelog
+name: Pipeline Publish
 
 on:
   registry_package:
@@ -31,7 +31,11 @@ jobs:
     - name: Run script - changelog
       uses: borales/actions-yarn@v2.3.0
       with:
-        cmd: changelog
+        cmd: actions:changelog
+    - name: Run script - version
+      uses: borales/actions-yarn@v2.3.0
+      with:
+        cmd: actions:version
     - name: Run script - gpg
       uses: crazy-max/ghaction-import-gpg@v3
       with:
@@ -44,6 +48,6 @@ jobs:
             git config user.name ${{ secrets.GH_NAME }}
             git config user.email ${{ secrets.GH_EMAIL }}
             git add -A
-            git commit -S -m "chore(changelog): Update CHANGELOG.md"
+            git commit -S -m "chore(publish): Se actualizan los archivos CHANGELOG.md y README.md"
             git push
     timeout-minutes: 5

@@ -1,3 +1,13 @@
+# [1.6.0](https://github.com/softcrumhq/eslint-config/compare/v1.5.3...v1.6.0) (2021-04-05)
+
+### Bug Fixes
+
+- Se agrega al equipo de arquitectura como revisor de cÂodigo ([ef5e046](https://github.com/softcrumhq/eslint-config/commit/ef5e0465734fcd267aa5fac6981cab3d383216b5))
+
+### Features
+
+- Se agregan los revisores por defecto para el repositorio ([6f8fcc9](https://github.com/softcrumhq/eslint-config/commit/6f8fcc954fb989fa16cf1014dc1db6cdd250c7cb))
+
 ## [1.5.3](https://github.com/softcrumhq/eslint-config/compare/v1.5.2...v1.5.3) (2021-04-05)
 
 ### Bug Fixes
