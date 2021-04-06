@@ -26,16 +26,33 @@ module.exports = {
     sourceType: 'module',
   },
 
-  plugins: ['import', 'jsx-a11y', 'prettier', 'react', 'react-hooks'],
+  plugins: ['header', 'import', 'jsx-a11y', 'prettier', 'react', 'react-hooks'],
 
   rules: {
     // Enforce require() on the top-level module scope (global-require)
     // https://eslint.org/docs/rules/global-require
     'global-require': 0,
 
+    // ESLint plugin to ensure that files begin with given comment
+    // https://github.com/Stuk/eslint-plugin-header
+    'header/header': 0,
+
+    // Ensure consistent use of file extension within the import path
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md
+    'import/extensions': 0,
+
     // Forbid require() calls with expressions
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-dynamic-require.md
     'import/no-dynamic-require': 0,
+
+    // Ensures an imported module can be resolved to a module on the local filesystem
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unresolved.md
+    'import/no-unresolved': [
+      2,
+      {
+        ignore: ['^@docusaurus', '^@generated', '^@theme'],
+      },
+    ],
 
     // Use this rule to prevent unnecessary path segments in import and require statements
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-useless-path-segments.md
@@ -99,6 +116,10 @@ module.exports = {
     // https://github.com/prettier/prettier
     'prettier/prettier': ['error'],
 
+    // Validate closing bracket location in JSX (react/jsx-closing-bracket-location)
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-closing-bracket-location.md
+    'react/jsx-closing-bracket-location': 0,
+
     // Enforce curly braces or disallow unnecessary curly braces in JSX props and/or children. (react/jsx-curly-brace-presence)
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-brace-presence.md
     'react/jsx-curly-brace-presence': 0,
@@ -106,5 +127,13 @@ module.exports = {
     // Restrict file extensions that may contain JSX (react/jsx-filename-extension)
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-filename-extension.md
     'react/jsx-filename-extension': 0,
+
+    // Typechecking With PropTypes
+    // https://reactjs.org/docs/typechecking-with-proptypes.html
+    'react/prop-types': 0,
+
+    // Rules of Hooks
+    // https://reactjs.org/docs/hooks-rules.html
+    'react-hooks/rules-of-hooks': 2,
   },
 };
