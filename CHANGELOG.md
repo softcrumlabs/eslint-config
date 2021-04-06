@@ -1,3 +1,9 @@
+## [1.6.1](https://github.com/softcrumhq/eslint-config/compare/v1.6.0...v1.6.1) (2021-04-06)
+
+### Bug Fixes
+
+- Se agrega metodo para actualizar la version del repositorio en el archivo README.md ([6dfc449](https://github.com/softcrumhq/eslint-config/commit/6dfc4492883815d9ce599db01c9d51217ff6d084))
+
 # [1.6.0](https://github.com/softcrumhq/eslint-config/compare/v1.5.3...v1.6.0) (2021-04-05)
 
 ### Bug Fixes
