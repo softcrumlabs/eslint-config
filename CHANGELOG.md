@@ -1,3 +1,15 @@
+# [1.7.0](https://github.com/softcrumhq/eslint-config/compare/v1.6.3...v1.7.0) (2021-04-06)
+
+### Features
+
+- Se agrega eslint-plugin-header a la configuracion ([013b27b](https://github.com/softcrumhq/eslint-config/commit/013b27bbb3d1fc6bc2861ce93808580fdd410ff2))
+- Se agrega regla header/header ([1d43e50](https://github.com/softcrumhq/eslint-config/commit/1d43e509ceabedf9ca81edcb096ead609c9ea6b7))
+- Se agrega regla import/extensions ([2378967](https://github.com/softcrumhq/eslint-config/commit/2378967ed007de6d6f7e0f7a5d0d90955f8c46c6))
+- Se agrega regla import/no-unresolved ([5818232](https://github.com/softcrumhq/eslint-config/commit/5818232cc991e89e7c17f6cb6c758a445096a074))
+- Se agrega regla react-hooks/rules-of-hooks ([f9d5121](https://github.com/softcrumhq/eslint-config/commit/f9d51213d7c6c0498544f8dc7393a039115ffbb1))
+- Se agrega regla react/jsx-closing-bracket-location ([a699f34](https://github.com/softcrumhq/eslint-config/commit/a699f34c3f2b1a255ccc0bb0fb8bf94618a6b40a))
+- Se agrega regla react/prop-types ([d37cfa4](https://github.com/softcrumhq/eslint-config/commit/d37cfa47e90aad616709c199803e40e599d2ecc4))
+
 ## [1.6.3](https://github.com/softcrumhq/eslint-config/compare/v1.6.2...v1.6.3) (2021-04-06)
 
 ### Bug Fixes
