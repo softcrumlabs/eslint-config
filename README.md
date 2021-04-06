@@ -5,12 +5,12 @@ Repositorio con la configuración base para proyectos en Javascript, considerand
 [![Pipeline Integration](https://github.com/softcrumhq/eslint-config/actions/workflows/integration.yml/badge.svg?branch=master)](https://github.com/softcrumhq/eslint-config/actions/workflows/integration.yml)
 [![Pipeline Release](https://github.com/softcrumhq/eslint-config/actions/workflows/release.yml/badge.svg?branch=release)](https://github.com/softcrumhq/eslint-config/actions/workflows/release.yml)
 [![Pipeline Package](https://github.com/softcrumhq/eslint-config/actions/workflows/package.yml/badge.svg?branch=master)](https://github.com/softcrumhq/eslint-config/actions/workflows/package.yml)
-[![Pipeline Changelog](https://github.com/softcrumhq/eslint-config/actions/workflows/changelog.yml/badge.svg?branch=master)](https://github.com/softcrumhq/eslint-config/actions/workflows/changelog.yml)
+[![Pipeline Publish](https://github.com/softcrumhq/eslint-config/actions/workflows/publish.yml/badge.svg?branch=master)](https://github.com/softcrumhq/eslint-config/actions/workflows/publish.yml)
 [![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=softcrumhq_eslint-config&metric=alert_status)](https://sonarcloud.io/dashboard?id=softcrumhq_eslint-config)
 
 
 ## Repository Status
-[![Package version](https://img.shields.io/badge/version-1.5.2-blue?logo=github)](https://github.com/softcrumhq/eslint-config)
+[![Package version](https://img.shields.io/badge/version-1.6.1-blue?logo=github)](https://github.com/softcrumhq/eslint-config)
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=softcrumhq_eslint-config&metric=bugs)](https://sonarcloud.io/project/issues?id=softcrumhq_eslint-config&resolved=false&types=BUG)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=softcrumhq_eslint-config&metric=code_smells)](https://sonarcloud.io/project/issues?id=softcrumhq_eslint-config&resolved=false&types=CODE_SMELL)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=softcrumhq_eslint-config&metric=coverage)](https://sonarcloud.io/component_measures?id=softcrumhq_eslint-config&metric=coverage&view=list)
