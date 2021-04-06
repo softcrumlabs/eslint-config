@@ -63,7 +63,7 @@ module.exports.changelog = () => {
     // Se eliminan los comentarios en la categoria Other y los Chores de actualizacion
     await parser.forEach((release, keyRelease) => {
       Object.keys(release.data).forEach((category) => {
-        parser[keyRelease].data[category] = release.data[category].filter((item) => !item.includes('- **changelog:**'));
+        parser[keyRelease].data[category] = release.data[category].filter((item) => !item.includes('- **publish:**'));
       })
     });
     await parser.forEach((release, key) => {
