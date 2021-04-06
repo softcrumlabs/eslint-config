@@ -106,5 +106,9 @@ module.exports = {
     // Restrict file extensions that may contain JSX (react/jsx-filename-extension)
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-filename-extension.md
     'react/jsx-filename-extension': 0,
+
+    // Typechecking With PropTypes
+    // https://reactjs.org/docs/typechecking-with-proptypes.html
+    'react/prop-types': 0
   },
 };
