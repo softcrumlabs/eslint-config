@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
   <file path="/Users/danielvalenzuelasuarez/Documents/Desarrollo/Softcrum/common/eslint-config/index.spec.js">
-    <testCase name="Test - Rules base Test 01 - File" duration="3"/>
+    <testCase name="Test - Rules base Test 01 - File" duration="2"/>
     <testCase name="Test - Rules base Test 02 - ParserOptions" duration="1"/>
     <testCase name="Test - Rules base Test 03 - Plugins" duration="1"/>
     <testCase name="Test - Rules base Test 04 - Rules" duration="1"/>

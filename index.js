@@ -109,6 +109,10 @@ module.exports = {
 
     // Typechecking With PropTypes
     // https://reactjs.org/docs/typechecking-with-proptypes.html
-    'react/prop-types': 0
+    'react/prop-types': 0,
+
+    // Rules of Hooks
+    // https://reactjs.org/docs/hooks-rules.html
+    'react-hooks/rules-of-hooks': 2,
   },
 };
