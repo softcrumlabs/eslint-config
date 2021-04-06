@@ -9,14 +9,6 @@
 - **publish:** Se actualizan los archivos CHANGELOG.md y README.md ([44e7045](https://github.com/softcrumhq/eslint-config/commit/44e70450057cde930b703ceb2b330bd25e4f301c))
 - **publish:** Se actualizan los archivos CHANGELOG.md y README.md ([2abcaa9](https://github.com/softcrumhq/eslint-config/commit/2abcaa9931a86c329d329a4216422b14ced15c9b))
 
-### Other
-
-- Merge pull request #70 from softcrumhq/release ([edec1a7](https://github.com/softcrumhq/eslint-config/commit/edec1a71e6402b38e4a3ccc14e2fa1bb0cb84349)), closes [#70](https://github.com/softcrumhq/eslint-config/issues/70)
-- Merge pull request #68 from softcrumhq/develop ([b33551b](https://github.com/softcrumhq/eslint-config/commit/b33551bf73de35dcc43f16c71ae12ce0df13f70d)), closes [#68](https://github.com/softcrumhq/eslint-config/issues/68)
-- Merge pull request #69 from softcrumhq/feature/clean-changelog ([0288a93](https://github.com/softcrumhq/eslint-config/commit/0288a931a0fb4ee073b1fc1a7c481d94eaff5bb2)), closes [#69](https://github.com/softcrumhq/eslint-config/issues/69)
-- Merge pull request #67 from softcrumhq/feature/change-readme ([072fcc7](https://github.com/softcrumhq/eslint-config/commit/072fcc740c6f457e38fa9c9e88be6b11bf74b0e2)), closes [#67](https://github.com/softcrumhq/eslint-config/issues/67)
-- Merge pull request #66 from softcrumhq/master ([6b4a530](https://github.com/softcrumhq/eslint-config/commit/6b4a530c100cfc7ed17f44675e93e0bc6d75ff84)), closes [#66](https://github.com/softcrumhq/eslint-config/issues/66)
-
 ## [1.6.1](https://github.com/softcrumhq/eslint-config/compare/v1.6.0...v1.6.1) (2021-04-06)
 
 ### Bug Fixes
