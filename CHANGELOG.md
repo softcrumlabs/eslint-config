@@ -8,7 +8,7 @@
 
 ### Bug Fixes
 
-- Se agrega al equipo de arquitectura como revisor de cÂodigo ([ef5e046](https://github.com/softcrumhq/eslint-config/commit/ef5e0465734fcd267aa5fac6981cab3d383216b5))
+- Se agrega al equipo de arquitectura como revisor de codigo ([ef5e046](https://github.com/softcrumhq/eslint-config/commit/ef5e0465734fcd267aa5fac6981cab3d383216b5))
 
 ### Features
 
