@@ -33,6 +33,10 @@ module.exports = {
     // https://eslint.org/docs/rules/global-require
     'global-require': 0,
 
+    // ESLint plugin to ensure that files begin with given comment
+    // https://github.com/Stuk/eslint-plugin-header
+    'header/header': 0,
+
     // Ensure consistent use of file extension within the import path
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md
     'import/extensions': 0,
