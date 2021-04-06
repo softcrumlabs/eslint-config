@@ -26,7 +26,7 @@ module.exports = {
     sourceType: 'module',
   },
 
-  plugins: ['import', 'jsx-a11y', 'prettier', 'react', 'react-hooks'],
+  plugins: ['header', 'import', 'jsx-a11y', 'prettier', 'react', 'react-hooks'],
 
   rules: {
     // Enforce require() on the top-level module scope (global-require)
