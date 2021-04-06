@@ -1,13 +1,14 @@
+## [1.6.3](https://github.com/softcrumhq/eslint-config/compare/v1.6.2...v1.6.3) (2021-04-06)
+
+### Bug Fixes
+
+- Se corrige filtro para eliminar chores innecesarios ([d0fcc42](https://github.com/softcrumhq/eslint-config/commit/d0fcc4244a4622eaa4cf93e95af029df0de352bc))
+
 ## [1.6.2](https://github.com/softcrumhq/eslint-config/compare/v1.6.1...v1.6.2) (2021-04-06)
 
 ### Bug Fixes
 
 - Se corrige el nombre del pipeline changelog a publish ([404dc0e](https://github.com/softcrumhq/eslint-config/commit/404dc0eed615e3ce81106446589a8f18efc02c60))
-
-### Chores
-
-- **publish:** Se actualizan los archivos CHANGELOG.md y README.md ([44e7045](https://github.com/softcrumhq/eslint-config/commit/44e70450057cde930b703ceb2b330bd25e4f301c))
-- **publish:** Se actualizan los archivos CHANGELOG.md y README.md ([2abcaa9](https://github.com/softcrumhq/eslint-config/commit/2abcaa9931a86c329d329a4216422b14ced15c9b))
 
 ## [1.6.1](https://github.com/softcrumhq/eslint-config/compare/v1.6.0...v1.6.1) (2021-04-06)
 
