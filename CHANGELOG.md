@@ -1,9 +1,5 @@
 # [1.7.0](https://github.com/softcrumhq/eslint-config/compare/v1.6.3...v1.7.0) (2021-04-06)
 
-### Chores
-
-- **publish:** Se actualizan los archivos CHANGELOG.md y README.md ([fd4e18b](https://github.com/softcrumhq/eslint-config/commit/fd4e18b2e98009f0842f6e3195a2b88f1b23188b))
-
 ### Features
 
 - Se agrega eslint-plugin-header a la configuracion ([013b27b](https://github.com/softcrumhq/eslint-config/commit/013b27bbb3d1fc6bc2861ce93808580fdd410ff2))
@@ -13,13 +9,6 @@
 - Se agrega regla react-hooks/rules-of-hooks ([f9d5121](https://github.com/softcrumhq/eslint-config/commit/f9d51213d7c6c0498544f8dc7393a039115ffbb1))
 - Se agrega regla react/jsx-closing-bracket-location ([a699f34](https://github.com/softcrumhq/eslint-config/commit/a699f34c3f2b1a255ccc0bb0fb8bf94618a6b40a))
 - Se agrega regla react/prop-types ([d37cfa4](https://github.com/softcrumhq/eslint-config/commit/d37cfa47e90aad616709c199803e40e599d2ecc4))
-
-### Other
-
-- Merge pull request #78 from softcrumhq/release ([88d1d0c](https://github.com/softcrumhq/eslint-config/commit/88d1d0c65e6360a8e75c450c18e03cc1c2c78917)), closes [#78](https://github.com/softcrumhq/eslint-config/issues/78)
-- Merge pull request #77 from softcrumhq/develop ([4e315a3](https://github.com/softcrumhq/eslint-config/commit/4e315a3be120635fab1e815ebc6fc1800f44da90)), closes [#77](https://github.com/softcrumhq/eslint-config/issues/77)
-- Merge pull request #76 from softcrumhq/feature/new-rules-docusaurus ([2d5fd5e](https://github.com/softcrumhq/eslint-config/commit/2d5fd5ee6967b47a0bb3d08c1008e9ed49e4430a)), closes [#76](https://github.com/softcrumhq/eslint-config/issues/76)
-- Merge pull request #75 from softcrumhq/master ([829ddb2](https://github.com/softcrumhq/eslint-config/commit/829ddb23de6832086696be2791baabc17c542328)), closes [#75](https://github.com/softcrumhq/eslint-config/issues/75)
 
 ## [1.6.3](https://github.com/softcrumhq/eslint-config/compare/v1.6.2...v1.6.3) (2021-04-06)
 
