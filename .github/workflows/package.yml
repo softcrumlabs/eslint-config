@@ -7,7 +7,7 @@ on:
 
 jobs:
   pipeline:
-    if: contains(github.event.commits[0].message, 'chore(release)') == false && contains(github.event.commits[0].message, 'chore(changelog)') == false
+    if: contains(github.event.commits[0].message, 'chore(release)') == false && contains(github.event.commits[0].message, 'chore(publish)') == false
     name: Pipeline
     runs-on: ${{ matrix.os }}
     strategy:
@@ -47,8 +47,10 @@ jobs:
         release-rules:
           '[
             { "type": "breaking", "release": "major" },
-            { "type": "bugfix", "release": "patch" },
-            { "type": "chore(changelog)", "release": false },
+            { "type": "bugfix", "release": "minor" },
+            { "type": "chore(publish)", "release": false },
+            { "type": "chore(deps)", "release": "patch" },
+            { "type": "chore(deps-dev)", "release": "patch" },
             { "type": "feature", "release": "minor" },
             { "type": "hotfix", "release": "patch" },
             { "type": "security", "release": "patch" }

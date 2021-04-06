@@ -1,5 +1,5 @@
-# @softcrumhq/eslint-config
 Repositorio con la configuración base para proyectos en Javascript, consideranddo las buenas prácticas de Airbnb y otros estándares internacionales de codificación.
+
 
 ## Pipeline Status
 [![Pipeline Integration](https://github.com/softcrumhq/eslint-config/actions/workflows/integration.yml/badge.svg?branch=master)](https://github.com/softcrumhq/eslint-config/actions/workflows/integration.yml)
@@ -10,7 +10,7 @@ Repositorio con la configuración base para proyectos en Javascript, considerand
 
 
 ## Repository Status
-[![Package version](https://img.shields.io/badge/dynamic/json?color=blue&label=version&logo=github&query=version&url=https://raw.githubusercontent.com/softcrumhq/eslint-config/master/package.json?token=AFMWHDRWLATSGK33XH7GV7LANOI5E)](https://github.com/softcrumhq/eslint-config)
+[![Package version](https://img.shields.io/badge/version-1.5.2-blue?logo=github)](https://github.com/softcrumhq/eslint-config)
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=softcrumhq_eslint-config&metric=bugs)](https://sonarcloud.io/project/issues?id=softcrumhq_eslint-config&resolved=false&types=BUG)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=softcrumhq_eslint-config&metric=code_smells)](https://sonarcloud.io/project/issues?id=softcrumhq_eslint-config&resolved=false&types=CODE_SMELL)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=softcrumhq_eslint-config&metric=coverage)](https://sonarcloud.io/component_measures?id=softcrumhq_eslint-config&metric=coverage&view=list)
@@ -99,6 +99,7 @@ Luego de agregar el archivo `.eslintrc` en nuestro repositorio, debemos incorpor
   ...
 }
 ```
+
 
 ## Mejorando esta configuración
 
