@@ -4,27 +4,11 @@
 
 - Se corrige filtro para eliminar chores innecesarios ([d0fcc42](https://github.com/softcrumhq/eslint-config/commit/d0fcc4244a4622eaa4cf93e95af029df0de352bc))
 
-### Chores
-
-- **publish:** Se actualizan los archivos CHANGELOG.md y README.md ([959ed3c](https://github.com/softcrumhq/eslint-config/commit/959ed3cf7aaba29bd2186158167b89f6d5546bd2))
-
-### Other
-
-- Merge pull request #74 from softcrumhq/release ([618dcae](https://github.com/softcrumhq/eslint-config/commit/618dcae7a45355b2011a4c13eb3b207069f74b58)), closes [#74](https://github.com/softcrumhq/eslint-config/issues/74)
-- Merge pull request #73 from softcrumhq/develop ([3198869](https://github.com/softcrumhq/eslint-config/commit/319886960334161242e77f8b3faadca401e4a2c5)), closes [#73](https://github.com/softcrumhq/eslint-config/issues/73)
-- Merge pull request #72 from softcrumhq/feature/change-readme ([9985f2e](https://github.com/softcrumhq/eslint-config/commit/9985f2ec7c4af9fa6ffd985f6984e990ce0d2ab1)), closes [#72](https://github.com/softcrumhq/eslint-config/issues/72)
-- Merge pull request #71 from softcrumhq/master ([53c68e6](https://github.com/softcrumhq/eslint-config/commit/53c68e602f1d1132bae7b90ebd470246adb6c52f)), closes [#71](https://github.com/softcrumhq/eslint-config/issues/71)
-
 ## [1.6.2](https://github.com/softcrumhq/eslint-config/compare/v1.6.1...v1.6.2) (2021-04-06)
 
 ### Bug Fixes
 
 - Se corrige el nombre del pipeline changelog a publish ([404dc0e](https://github.com/softcrumhq/eslint-config/commit/404dc0eed615e3ce81106446589a8f18efc02c60))
-
-### Chores
-
-- **publish:** Se actualizan los archivos CHANGELOG.md y README.md ([44e7045](https://github.com/softcrumhq/eslint-config/commit/44e70450057cde930b703ceb2b330bd25e4f301c))
-- **publish:** Se actualizan los archivos CHANGELOG.md y README.md ([2abcaa9](https://github.com/softcrumhq/eslint-config/commit/2abcaa9931a86c329d329a4216422b14ced15c9b))
 
 ## [1.6.1](https://github.com/softcrumhq/eslint-config/compare/v1.6.0...v1.6.1) (2021-04-06)
 
