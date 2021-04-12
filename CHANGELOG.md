@@ -1,3 +1,26 @@
+## [1.7.1](https://github.com/softcrumhq/eslint-config/compare/v1.7.0...v1.7.1) (2021-04-12)
+
+### Bug Fixes
+
+- Se elimina validacion para dependencia en las reglas chore(dev) y chore(deps-dev) ([746f4ab](https://github.com/softcrumhq/eslint-config/commit/746f4abefc29fc6d341cd56219a3714efe6ead6e))
+
+### Chores
+
+- **deps-dev:** bump @babel/core from 7.13.14 to 7.13.15 ([070382c](https://github.com/softcrumhq/eslint-config/commit/070382c7efb389024f03920b7ed6b499cff3aef9))
+- **deps-dev:** bump eslint from 7.23.0 to 7.24.0 ([de130b6](https://github.com/softcrumhq/eslint-config/commit/de130b6108283ce87d4b5ff27eec3862d20669de))
+- **deps-dev:** bump eslint-plugin-react from 7.23.1 to 7.23.2 ([a711ee3](https://github.com/softcrumhq/eslint-config/commit/a711ee3821eb66fe2e6e85746d5670f6db72970d))
+- **publish:** Se actualizan los archivos CHANGELOG.md y README.md ([5f9f5ee](https://github.com/softcrumhq/eslint-config/commit/5f9f5ee72163557e18b3bf1fea36ccbebbb7c04e))
+
+### Other
+
+- Merge pull request #85 from softcrumhq/release ([5a031f0](https://github.com/softcrumhq/eslint-config/commit/5a031f0eb9899a86ec9fba13b669d692f4f7c1d4)), closes [#85](https://github.com/softcrumhq/eslint-config/issues/85)
+- Merge pull request #84 from softcrumhq/develop ([38746a0](https://github.com/softcrumhq/eslint-config/commit/38746a06df4bc1a9e557a6938f71c2584e5035fd)), closes [#84](https://github.com/softcrumhq/eslint-config/issues/84)
+- Merge pull request #83 from softcrumhq/feature/change-pipeline ([ae70c56](https://github.com/softcrumhq/eslint-config/commit/ae70c562212a8549540cecf1188be6aa6b13f3cc)), closes [#83](https://github.com/softcrumhq/eslint-config/issues/83)
+- Merge pull request #81 from softcrumhq/dependabot/npm_and_yarn/develop/eslint-plugin-react-7.23.2 ([8796593](https://github.com/softcrumhq/eslint-config/commit/8796593240f522b3f5e6a5e9723b65982325cce1)), closes [#81](https://github.com/softcrumhq/eslint-config/issues/81)
+- Merge pull request #82 from softcrumhq/dependabot/npm_and_yarn/develop/eslint-7.24.0 ([e40f542](https://github.com/softcrumhq/eslint-config/commit/e40f5424bc0aeeb70904d901e1fb676f58f2cd59)), closes [#82](https://github.com/softcrumhq/eslint-config/issues/82)
+- Merge pull request #80 from softcrumhq/dependabot/npm_and_yarn/develop/babel/core-7.13.15 ([9e4cd3f](https://github.com/softcrumhq/eslint-config/commit/9e4cd3f5070e8367b569f0d77c3af2f6a0a80ad1)), closes [#80](https://github.com/softcrumhq/eslint-config/issues/80)
+- Merge pull request #79 from softcrumhq/master ([23e00bb](https://github.com/softcrumhq/eslint-config/commit/23e00bb43632a285edcfcd80127a0adfd85a4cef)), closes [#79](https://github.com/softcrumhq/eslint-config/issues/79)
+
 # [1.7.0](https://github.com/softcrumhq/eslint-config/compare/v1.6.3...v1.7.0) (2021-04-06)
 
 ### Features
