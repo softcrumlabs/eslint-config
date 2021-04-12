@@ -49,11 +49,8 @@ jobs:
             { "type": "breaking", "release": "major" },
             { "type": "bugfix", "release": "minor" },
             { "type": "chore(publish)", "release": false },
-            { "type": "chore(deps)", "release": "patch" },
-            { "type": "chore(deps-dev)", "release": "patch" },
             { "type": "feature", "release": "minor" },
-            { "type": "hotfix", "release": "patch" },
-            { "type": "security", "release": "patch" }
+            { "type": "hotfix", "release": "patch" }
           ]'
     - name: Run script - package
       continue-on-error: true
