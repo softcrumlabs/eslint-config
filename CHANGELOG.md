@@ -7,14 +7,6 @@
 ### Chores
 
 - **deps-dev:** bump eslint-config-prettier from 8.1.0 to 8.2.0 ([cb7cbb0](https://github.com/softcrumhq/eslint-config/commit/cb7cbb0456ce4d179474c5569fa14ecd85d3b5fd))
-- **publish:** Se actualizan los archivos CHANGELOG.md y README.md ([f753228](https://github.com/softcrumhq/eslint-config/commit/f7532280e13ad8a0a88be5280a264e9a7be9c386))
-
-### Other
-
-- Merge pull request #89 from softcrumhq/release ([0d63c04](https://github.com/softcrumhq/eslint-config/commit/0d63c04fe40d717447b52d1620842f31320fe197)), closes [#89](https://github.com/softcrumhq/eslint-config/issues/89)
-- Merge pull request #88 from softcrumhq/develop ([c09ba44](https://github.com/softcrumhq/eslint-config/commit/c09ba442e218600c15d4cdb0d06f77007c162c08)), closes [#88](https://github.com/softcrumhq/eslint-config/issues/88)
-- Merge pull request #87 from softcrumhq/feature/change-pipeline ([e2e12c4](https://github.com/softcrumhq/eslint-config/commit/e2e12c475c23b84044fbab7b9ec04dea948e8b73)), closes [#87](https://github.com/softcrumhq/eslint-config/issues/87)
-- Merge pull request #86 from softcrumhq/dependabot/npm_and_yarn/develop/eslint-config-prettier-8.2.0 ([c791750](https://github.com/softcrumhq/eslint-config/commit/c791750577561d7463121fd4ce9b053d9455ca6c)), closes [#86](https://github.com/softcrumhq/eslint-config/issues/86)
 
 ## [1.7.1](https://github.com/softcrumhq/eslint-config/compare/v1.7.0...v1.7.1) (2021-04-12)
 
