@@ -1,3 +1,25 @@
+## [1.7.2](https://github.com/softcrumhq/eslint-config/compare/v1.7.1...v1.7.2) (2021-04-14)
+
+### Bug Fixes
+
+- Se agrega cambio en el prefijo de dependabot.yml ([68c57a6](https://github.com/softcrumhq/eslint-config/commit/68c57a6e1e76b18457d098b30b2768bbe2917e46))
+
+### Chores
+
+- **deps-dev:** bump eslint-config-prettier from 8.1.0 to 8.2.0 ([cb7cbb0](https://github.com/softcrumhq/eslint-config/commit/cb7cbb0456ce4d179474c5569fa14ecd85d3b5fd))
+
+## [1.7.1](https://github.com/softcrumhq/eslint-config/compare/v1.7.0...v1.7.1) (2021-04-12)
+
+### Bug Fixes
+
+- Se elimina validacion para dependencia en las reglas chore(dev) y chore(deps-dev) ([746f4ab](https://github.com/softcrumhq/eslint-config/commit/746f4abefc29fc6d341cd56219a3714efe6ead6e))
+
+### Chores
+
+- **deps-dev:** bump @babel/core from 7.13.14 to 7.13.15 ([070382c](https://github.com/softcrumhq/eslint-config/commit/070382c7efb389024f03920b7ed6b499cff3aef9))
+- **deps-dev:** bump eslint from 7.23.0 to 7.24.0 ([de130b6](https://github.com/softcrumhq/eslint-config/commit/de130b6108283ce87d4b5ff27eec3862d20669de))
+- **deps-dev:** bump eslint-plugin-react from 7.23.1 to 7.23.2 ([a711ee3](https://github.com/softcrumhq/eslint-config/commit/a711ee3821eb66fe2e6e85746d5670f6db72970d))
+
 # [1.7.0](https://github.com/softcrumhq/eslint-config/compare/v1.6.3...v1.7.0) (2021-04-06)
 
 ### Features
