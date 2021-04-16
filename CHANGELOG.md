@@ -1,3 +1,13 @@
+# [1.8.0](https://github.com/softcrumhq/eslint-config/compare/v1.7.2...v1.8.0) (2021-04-16)
+
+### Bug Fixes
+
+- **deps-dev:** bump eslint-plugin-prettier from 3.3.1 to 3.4.0 ([2e138b8](https://github.com/softcrumhq/eslint-config/commit/2e138b8f9730a340a9935b11af0fa9e70166a39b))
+
+### Features
+
+- Se agrega como revisor de los Pull Request de Dependabot al grupo de arquitectos ([8f22c45](https://github.com/softcrumhq/eslint-config/commit/8f22c458bac3bcb701b962972e0f4c5adfdb6541))
+
 ## [1.7.2](https://github.com/softcrumhq/eslint-config/compare/v1.7.1...v1.7.2) (2021-04-14)
 
 ### Bug Fixes
