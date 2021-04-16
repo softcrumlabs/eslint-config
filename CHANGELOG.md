@@ -4,21 +4,9 @@
 
 - **deps-dev:** bump eslint-plugin-prettier from 3.3.1 to 3.4.0 ([2e138b8](https://github.com/softcrumhq/eslint-config/commit/2e138b8f9730a340a9935b11af0fa9e70166a39b))
 
-### Chores
-
-- **publish:** Se actualizan los archivos CHANGELOG.md y README.md ([431ce4d](https://github.com/softcrumhq/eslint-config/commit/431ce4df15da8fe080812175f637ca132942dff0))
-
 ### Features
 
 - Se agrega como revisor de los Pull Request de Dependabot al grupo de arquitectos ([8f22c45](https://github.com/softcrumhq/eslint-config/commit/8f22c458bac3bcb701b962972e0f4c5adfdb6541))
-
-### Other
-
-- Merge pull request #94 from softcrumhq/release ([32c2566](https://github.com/softcrumhq/eslint-config/commit/32c25665f057e53a8a7c015d44f2068d91101661)), closes [#94](https://github.com/softcrumhq/eslint-config/issues/94)
-- Merge pull request #92 from softcrumhq/develop ([2fc71e7](https://github.com/softcrumhq/eslint-config/commit/2fc71e77a41068a8a29d504e39972f5eb4d99f85)), closes [#92](https://github.com/softcrumhq/eslint-config/issues/92)
-- Merge pull request #93 from softcrumhq/feature/change-pipeline ([ed35bc1](https://github.com/softcrumhq/eslint-config/commit/ed35bc10e7a488ce5a782458cda348f51c510387)), closes [#93](https://github.com/softcrumhq/eslint-config/issues/93)
-- Merge pull request #91 from softcrumhq/master ([a2b2885](https://github.com/softcrumhq/eslint-config/commit/a2b28852fe48c86d25959e67bf3c3758f152f02d)), closes [#91](https://github.com/softcrumhq/eslint-config/issues/91)
-- Merge pull request #90 from softcrumhq/dependabot/npm_and_yarn/develop/eslint-plugin-prettier-3.4.0 ([e5181a1](https://github.com/softcrumhq/eslint-config/commit/e5181a1c454d5d206243bfb99c42ae7aa215e471)), closes [#90](https://github.com/softcrumhq/eslint-config/issues/90)
 
 ## [1.7.2](https://github.com/softcrumhq/eslint-config/compare/v1.7.1...v1.7.2) (2021-04-14)
 
