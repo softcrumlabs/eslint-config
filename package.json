@@ -1,6 +1,6 @@
 {
   "name": "@softcrumhq/eslint-config",
-  "version": "1.7.0",
+  "version": "1.7.2",
   "description": "Repositorio con toda la configuración de estilos de programación para Javascript",
   "keywords": [
     "Eslint",
