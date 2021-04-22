@@ -5,18 +5,6 @@
 - **deps-dev:** bump @babel/core from 7.13.15 to 7.13.16 ([04e73cb](https://github.com/softcrumhq/eslint-config/commit/04e73cbe373960b48382037e46f5249fec697cbb))
 - **deps-dev:** bump @babel/runtime from 7.13.10 to 7.13.17 ([5f7752e](https://github.com/softcrumhq/eslint-config/commit/5f7752ef36a08a80a3d40108318877a73a065b70))
 
-### Chores
-
-- **publish:** Se actualizan los archivos CHANGELOG.md y README.md ([42d058b](https://github.com/softcrumhq/eslint-config/commit/42d058b7d7b7c79c13e60295eeef6118e09c469e))
-
-### Other
-
-- Merge pull request #99 from softcrumhq/release ([f1ec627](https://github.com/softcrumhq/eslint-config/commit/f1ec627124ef99aa1c268a1b6d1ee75898b37810)), closes [#99](https://github.com/softcrumhq/eslint-config/issues/99)
-- Merge pull request #98 from softcrumhq/develop ([a3b6f52](https://github.com/softcrumhq/eslint-config/commit/a3b6f523d331b465ab287fcd0a4feb174756d331)), closes [#98](https://github.com/softcrumhq/eslint-config/issues/98)
-- Merge pull request #97 from softcrumhq/dependabot/npm_and_yarn/develop/babel/runtime-7.13.17 ([141e9a0](https://github.com/softcrumhq/eslint-config/commit/141e9a0dc28629f5aacbf4f307e9497f1b937cc6)), closes [#97](https://github.com/softcrumhq/eslint-config/issues/97)
-- Merge pull request #96 from softcrumhq/dependabot/npm_and_yarn/develop/babel/core-7.13.16 ([c78e4d7](https://github.com/softcrumhq/eslint-config/commit/c78e4d7bc8243b335ebce3dce192b41b68b74ee9)), closes [#96](https://github.com/softcrumhq/eslint-config/issues/96)
-- Merge pull request #95 from softcrumhq/master ([83f4cb4](https://github.com/softcrumhq/eslint-config/commit/83f4cb40abd997d4b99576df120928def2858a40)), closes [#95](https://github.com/softcrumhq/eslint-config/issues/95)
-
 # [1.8.0](https://github.com/softcrumhq/eslint-config/compare/v1.7.2...v1.8.0) (2021-04-16)
 
 ### Bug Fixes
