@@ -1,3 +1,10 @@
+## [1.8.1](https://github.com/softcrumhq/eslint-config/compare/v1.8.0...v1.8.1) (2021-04-22)
+
+### Bug Fixes
+
+- **deps-dev:** bump @babel/core from 7.13.15 to 7.13.16 ([04e73cb](https://github.com/softcrumhq/eslint-config/commit/04e73cbe373960b48382037e46f5249fec697cbb))
+- **deps-dev:** bump @babel/runtime from 7.13.10 to 7.13.17 ([5f7752e](https://github.com/softcrumhq/eslint-config/commit/5f7752ef36a08a80a3d40108318877a73a065b70))
+
 # [1.8.0](https://github.com/softcrumhq/eslint-config/compare/v1.7.2...v1.8.0) (2021-04-16)
 
 ### Bug Fixes
