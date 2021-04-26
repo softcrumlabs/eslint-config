@@ -1,3 +1,9 @@
+## [1.8.2](https://github.com/softcrumhq/eslint-config/compare/v1.8.1...v1.8.2) (2021-04-26)
+
+### Bug Fixes
+
+- Se actualizan las librerias eslint y eslint-config-prettier ([4cdc985](https://github.com/softcrumhq/eslint-config/commit/4cdc9852eec8168fea3fbf60522d05e65ed4d887))
+
 ## [1.8.1](https://github.com/softcrumhq/eslint-config/compare/v1.8.0...v1.8.1) (2021-04-22)
 
 ### Bug Fixes
