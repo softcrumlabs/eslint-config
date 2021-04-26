@@ -1,3 +1,20 @@
+## [1.8.2](https://github.com/softcrumhq/eslint-config/compare/v1.8.1...v1.8.2) (2021-04-26)
+
+### Bug Fixes
+
+- Se actualizan las librerias eslint y eslint-config-prettier ([4cdc985](https://github.com/softcrumhq/eslint-config/commit/4cdc9852eec8168fea3fbf60522d05e65ed4d887))
+
+### Chores
+
+- **publish:** Se actualizan los archivos CHANGELOG.md y README.md ([0aa111c](https://github.com/softcrumhq/eslint-config/commit/0aa111c5acd4570bec2288d56615290b3ddaca91))
+
+### Other
+
+- Merge pull request #103 from softcrumhq/release ([7ef900d](https://github.com/softcrumhq/eslint-config/commit/7ef900d315f291bf0ff74e43ce561cfc4e88692e)), closes [#103](https://github.com/softcrumhq/eslint-config/issues/103)
+- Merge pull request #102 from softcrumhq/develop ([445b8f4](https://github.com/softcrumhq/eslint-config/commit/445b8f473d5215cbe517e02cbbd741cde855a8c4)), closes [#102](https://github.com/softcrumhq/eslint-config/issues/102)
+- Merge pull request #101 from softcrumhq/feature/upgrade-libraries ([34f6c9b](https://github.com/softcrumhq/eslint-config/commit/34f6c9bda41708f946788a21f3180315209964f6)), closes [#101](https://github.com/softcrumhq/eslint-config/issues/101)
+- Merge pull request #100 from softcrumhq/master ([9f58730](https://github.com/softcrumhq/eslint-config/commit/9f5873070c6f05a3c0b12c2d4e76479716d2b82e)), closes [#100](https://github.com/softcrumhq/eslint-config/issues/100)
+
 ## [1.8.1](https://github.com/softcrumhq/eslint-config/compare/v1.8.0...v1.8.1) (2021-04-22)
 
 ### Bug Fixes
