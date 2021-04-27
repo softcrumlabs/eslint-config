@@ -1,3 +1,10 @@
+## [1.8.3](https://github.com/softcrumhq/eslint-config/compare/v1.8.2...v1.8.3) (2021-04-27)
+
+### Bug Fixes
+
+- **deps-dev:** bump eslint from 7.24.0 to 7.25.0 ([bd4279b](https://github.com/softcrumhq/eslint-config/commit/bd4279b0dedc6cf2e38df3b92f5cf3b7b25767a7))
+- **deps-dev:** bump eslint-config-prettier from 8.2.0 to 8.3.0 ([8a8bcbe](https://github.com/softcrumhq/eslint-config/commit/8a8bcbe013dbd3dfde986d6cb2e1d2b8d75b4c46))
+
 ## [1.8.2](https://github.com/softcrumhq/eslint-config/compare/v1.8.1...v1.8.2) (2021-04-26)
 
 ### Bug Fixes
