@@ -1,6 +1,6 @@
 {
   "name": "@softcrumhq/eslint-config",
-  "version": "1.8.2",
+  "version": "1.8.3",
   "description": "Repositorio con toda la configuración de estilos de programación para Javascript",
   "keywords": [
     "Eslint",
@@ -49,9 +49,9 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@babel/core": "7.13.16",
+    "@babel/core": "7.14.0",
     "@babel/eslint-parser": "7.13.14",
-    "@babel/runtime": "7.13.17",
+    "@babel/runtime": "7.14.0",
     "babel-jest": "26.6.3",
     "babel-preset-airbnb": "5.0.0",
     "cross-env": "7.0.3",
@@ -73,9 +73,9 @@
     "rimraf": "3.0.2"
   },
   "peerDependencies": {
-    "@babel/core": "7.13.16",
+    "@babel/core": "7.14.0",
     "@babel/eslint-parser": "7.13.14",
-    "@babel/runtime": "7.13.17",
+    "@babel/runtime": "7.14.0",
     "babel-preset-airbnb": "5.0.0",
     "eslint": "7.25.0",
     "eslint-config-airbnb": "18.2.1",
