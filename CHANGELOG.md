@@ -1,3 +1,20 @@
+## [1.8.6](https://github.com/softcrumhq/eslint-config/compare/v1.8.5...v1.8.6) (2021-05-10)
+
+### Bug Fixes
+
+- Se actualiza dependencia hosted-git-info por vulnerabilidad CVE-2021-23362 ([9a8c78c](https://github.com/softcrumhq/eslint-config/commit/9a8c78c04d7c8f37e83ccffebef8ba688a90836e))
+
+### Chores
+
+- **publish:** Se actualizan los archivos CHANGELOG.md y README.md ([f0c1662](https://github.com/softcrumhq/eslint-config/commit/f0c166295598f1708ebc2d9b71bba2453b2b9839))
+
+### Other
+
+- Merge pull request #122 from softcrumhq/release ([1048722](https://github.com/softcrumhq/eslint-config/commit/1048722105aeba9a0cec27009c71e17919bb9b2d)), closes [#122](https://github.com/softcrumhq/eslint-config/issues/122)
+- Merge pull request #121 from softcrumhq/develop ([10909e6](https://github.com/softcrumhq/eslint-config/commit/10909e68b271ab1c601d713dcb8b41ee5d82d4a9)), closes [#121](https://github.com/softcrumhq/eslint-config/issues/121)
+- Merge pull request #120 from softcrumhq/feature/dependabot-fixes ([52b66fa](https://github.com/softcrumhq/eslint-config/commit/52b66faf13f20821a43c96d52553a2e06a8aa2eb)), closes [#120](https://github.com/softcrumhq/eslint-config/issues/120)
+- Merge pull request #119 from softcrumhq/master ([c32d5a9](https://github.com/softcrumhq/eslint-config/commit/c32d5a9acacfcf15bf26661dde4774ec47e81955)), closes [#119](https://github.com/softcrumhq/eslint-config/issues/119)
+
 ## [1.8.5](https://github.com/softcrumhq/eslint-config/compare/v1.8.4...v1.8.5) (2021-05-10)
 
 ### Bug Fixes
