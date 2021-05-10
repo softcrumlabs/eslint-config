@@ -68,7 +68,7 @@
     "jest-sonar-reporter": "2.0.0",
     "jscpd": "3.3.25",
     "pre-commit": "1.2.2",
-    "prettier": "2.2.1",
+    "prettier": "2.3.0",
     "react": "17.0.2",
     "rimraf": "3.0.2"
   },
@@ -86,7 +86,7 @@
     "eslint-plugin-prettier": "3.4.0",
     "eslint-plugin-react": "7.23.2",
     "eslint-plugin-react-hooks": "4.2.0",
-    "prettier": "2.2.1",
+    "prettier": "2.3.0",
     "react": "17.0.2"
   }
 }
