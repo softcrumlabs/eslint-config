@@ -1,3 +1,22 @@
+## [1.8.5](https://github.com/softcrumhq/eslint-config/compare/v1.8.4...v1.8.5) (2021-05-10)
+
+### Bug Fixes
+
+- **deps-dev:** bump eslint from 7.25.0 to 7.26.0 ([9a31010](https://github.com/softcrumhq/eslint-config/commit/9a31010d8fc9b738a914370d29a934b20db41294))
+- **deps-dev:** bump prettier from 2.2.1 to 2.3.0 ([981eb74](https://github.com/softcrumhq/eslint-config/commit/981eb7404aa42f99cd73cfe3ec294b2f20eadd06))
+
+### Chores
+
+- **publish:** Se actualizan los archivos CHANGELOG.md y README.md ([84c41ba](https://github.com/softcrumhq/eslint-config/commit/84c41ba09c958ddf34db4054e3cb0745dfc6f3f8))
+
+### Other
+
+- Merge pull request #118 from softcrumhq/release ([def1818](https://github.com/softcrumhq/eslint-config/commit/def1818804aa961f503d71b1aae819cec0fe1ff2)), closes [#118](https://github.com/softcrumhq/eslint-config/issues/118)
+- Merge pull request #117 from softcrumhq/develop ([58f0a3b](https://github.com/softcrumhq/eslint-config/commit/58f0a3bb4426f54104b780d4978fefcc09d5d4bd)), closes [#117](https://github.com/softcrumhq/eslint-config/issues/117)
+- Merge pull request #116 from softcrumhq/dependabot/npm_and_yarn/develop/prettier-2.3.0 ([74a18da](https://github.com/softcrumhq/eslint-config/commit/74a18da91bf59017fdb03d29fbe65ddbb6241f65)), closes [#116](https://github.com/softcrumhq/eslint-config/issues/116)
+- Merge pull request #115 from softcrumhq/dependabot/npm_and_yarn/develop/eslint-7.26.0 ([987621b](https://github.com/softcrumhq/eslint-config/commit/987621bc29ab303d3df1fb1981db5aa6952ba30a)), closes [#115](https://github.com/softcrumhq/eslint-config/issues/115)
+- Merge pull request #114 from softcrumhq/master ([f91d6d8](https://github.com/softcrumhq/eslint-config/commit/f91d6d8b1800e7469e2a391a0b122c8107ce3423)), closes [#114](https://github.com/softcrumhq/eslint-config/issues/114)
+
 ## [1.8.4](https://github.com/softcrumhq/eslint-config/compare/v1.8.3...v1.8.4) (2021-05-03)
 
 ### Bug Fixes
