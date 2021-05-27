@@ -1,3 +1,9 @@
+## [1.8.6](https://github.com/softcrumhq/eslint-config/compare/v1.8.5...v1.8.6) (2021-05-10)
+
+### Bug Fixes
+
+- Se actualiza dependencia hosted-git-info por vulnerabilidad CVE-2021-23362 ([9a8c78c](https://github.com/softcrumhq/eslint-config/commit/9a8c78c04d7c8f37e83ccffebef8ba688a90836e))
+
 ## [1.8.5](https://github.com/softcrumhq/eslint-config/compare/v1.8.4...v1.8.5) (2021-05-10)
 
 ### Bug Fixes
