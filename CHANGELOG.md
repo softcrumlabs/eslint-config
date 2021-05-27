@@ -16,25 +16,6 @@
 ### Chores
 
 - **deps:** bump browserslist from 4.16.3 to 4.16.6 ([29410f2](https://github.com/softcrumhq/eslint-config/commit/29410f2577174b5d5f1278d3fa6331b1a4aeab46))
-- **publish:** Se actualizan los archivos CHANGELOG.md y README.md ([2332d37](https://github.com/softcrumhq/eslint-config/commit/2332d377159bf07f51f04b0746e4232ab4b90705))
-
-### Other
-
-- Merge pull request #140 from softcrumhq/release ([075551c](https://github.com/softcrumhq/eslint-config/commit/075551c9aac0cfa4f0d916e8177a8ac488a56805)), closes [#140](https://github.com/softcrumhq/eslint-config/issues/140)
-- Merge branch 'master' into release ([a883154](https://github.com/softcrumhq/eslint-config/commit/a8831549a1f867c08a46a6ccb573ec09e7a02424))
-- Merge pull request #139 from softcrumhq/develop ([4f8bf76](https://github.com/softcrumhq/eslint-config/commit/4f8bf7663e36c543d399e5d1fa27360ce52899a5)), closes [#139](https://github.com/softcrumhq/eslint-config/issues/139)
-- Merge pull request #138 from softcrumhq/dependabot/npm_and_yarn/browserslist-4.16.6 ([f553986](https://github.com/softcrumhq/eslint-config/commit/f553986ac2dc4e13ef20f1cb1b984773a3917c9e)), closes [#138](https://github.com/softcrumhq/eslint-config/issues/138)
-- Merge pull request #136 from softcrumhq/dependabot/npm_and_yarn/develop/jest-27.0.1 ([d994a85](https://github.com/softcrumhq/eslint-config/commit/d994a85fd493730820103647add4d329bf242fcd)), closes [#136](https://github.com/softcrumhq/eslint-config/issues/136)
-- Merge pull request #137 from softcrumhq/dependabot/npm_and_yarn/develop/babel-jest-27.0.1 ([a41b9a8](https://github.com/softcrumhq/eslint-config/commit/a41b9a84acb7507aed58896ad40c8ff42f6eb3d2)), closes [#137](https://github.com/softcrumhq/eslint-config/issues/137)
-- Merge pull request #134 from softcrumhq/dependabot/npm_and_yarn/develop/eslint-7.27.0 ([9112a47](https://github.com/softcrumhq/eslint-config/commit/9112a470cd0260482c252c660ed7082d6e852b4a)), closes [#134](https://github.com/softcrumhq/eslint-config/issues/134)
-- Merge pull request #132 from softcrumhq/dependabot/npm_and_yarn/develop/babel/eslint-parser-7.14.3 ([aba93ad](https://github.com/softcrumhq/eslint-config/commit/aba93adc3ae083e06d2e51266ac4deec8ace6eb8)), closes [#132](https://github.com/softcrumhq/eslint-config/issues/132)
-- Merge pull request #135 from softcrumhq/dependabot/npm_and_yarn/develop/jscpd-3.3.26 ([0af6bce](https://github.com/softcrumhq/eslint-config/commit/0af6bce10a79cbcf5a6b93274ddc637e4c21e65e)), closes [#135](https://github.com/softcrumhq/eslint-config/issues/135)
-- Merge pull request #133 from softcrumhq/dependabot/npm_and_yarn/develop/eslint-plugin-import-2.23.3 ([0f530cc](https://github.com/softcrumhq/eslint-config/commit/0f530cc18a75c89b247227dd0adbc428b21e1ffd)), closes [#133](https://github.com/softcrumhq/eslint-config/issues/133)
-- Merge pull request #131 from softcrumhq/dependabot/npm_and_yarn/develop/babel/core-7.14.3 ([0c7a0ae](https://github.com/softcrumhq/eslint-config/commit/0c7a0ae1235e5c212c8bd56dbef181dad5e976b4)), closes [#131](https://github.com/softcrumhq/eslint-config/issues/131)
-- Merge pull request #126 from softcrumhq/dependabot/github_actions/develop/actions/setup-node-2.1.5 ([5304681](https://github.com/softcrumhq/eslint-config/commit/53046814e54e09c9b858ab3624378107df464cfc)), closes [#126](https://github.com/softcrumhq/eslint-config/issues/126)
-- Merge pull request #125 from softcrumhq/dependabot/github_actions/develop/crazy-max/ghaction-import-gpg-3.1.0 ([a107c30](https://github.com/softcrumhq/eslint-config/commit/a107c30d1ee540aa417b45178531565559fb57dc)), closes [#125](https://github.com/softcrumhq/eslint-config/issues/125)
-- Merge pull request #124 from softcrumhq/dependabot/github_actions/develop/actions/checkout-2.3.4 ([3f67130](https://github.com/softcrumhq/eslint-config/commit/3f671302fa67906c4a884671f8c60dae63350756)), closes [#124](https://github.com/softcrumhq/eslint-config/issues/124)
-- Merge pull request #123 from softcrumhq/master ([04b185b](https://github.com/softcrumhq/eslint-config/commit/04b185b3d0b245fe89559f349485d674a63bb75c)), closes [#123](https://github.com/softcrumhq/eslint-config/issues/123)
 
 ## [1.8.6](https://github.com/softcrumhq/eslint-config/compare/v1.8.5...v1.8.6) (2021-05-10)
 
