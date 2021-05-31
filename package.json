@@ -52,7 +52,7 @@
     "@babel/core": "7.14.3",
     "@babel/eslint-parser": "7.14.3",
     "@babel/runtime": "7.14.0",
-    "babel-jest": "27.0.1",
+    "babel-jest": "27.0.2",
     "babel-preset-airbnb": "5.0.0",
     "cross-env": "7.0.3",
     "eslint": "7.27.0",
