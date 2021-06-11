@@ -12,26 +12,6 @@
 - **deps-dev:** bump jest from 27.0.1 to 27.0.4 ([fbce3aa](https://github.com/softcrumhq/eslint-config/commit/fbce3aaf870fd986a86a5a41cc6a87173baf170f))
 - **deps-dev:** bump prettier from 2.3.0 to 2.3.1 ([7d46819](https://github.com/softcrumhq/eslint-config/commit/7d468197bab9a24811f954935eed110b056c5a1d))
 
-### Chores
-
-- **publish:** Se actualizan los archivos CHANGELOG.md y README.md ([4ba01ae](https://github.com/softcrumhq/eslint-config/commit/4ba01ae79c26994a998239c43179806eea2da90a))
-
-### Other
-
-- Merge pull request #153 from softcrumhq/release ([c4ef52d](https://github.com/softcrumhq/eslint-config/commit/c4ef52d0ac0fe64f0dc0a921530cde10af4ead7d)), closes [#153](https://github.com/softcrumhq/eslint-config/issues/153)
-- Merge pull request #152 from softcrumhq/develop ([4f3c761](https://github.com/softcrumhq/eslint-config/commit/4f3c7618923d63159b2e4fdcfa437aaf5ec1d0b3)), closes [#152](https://github.com/softcrumhq/eslint-config/issues/152)
-- Merge branch 'release' into develop ([91d0ad2](https://github.com/softcrumhq/eslint-config/commit/91d0ad2103b651e545f973736a94ebb8d41a84cf))
-- Merge pull request #151 from softcrumhq/dependabot/npm_and_yarn/develop/babel/core-7.14.5 ([54ecb0c](https://github.com/softcrumhq/eslint-config/commit/54ecb0c46f4ec15a3f07577fd82b67d8ab7a06cd)), closes [#151](https://github.com/softcrumhq/eslint-config/issues/151)
-- Merge pull request #150 from softcrumhq/dependabot/npm_and_yarn/develop/babel/runtime-7.14.5 ([1c5e299](https://github.com/softcrumhq/eslint-config/commit/1c5e299c934bce00559cf769b7fe4091afc6bb83)), closes [#150](https://github.com/softcrumhq/eslint-config/issues/150)
-- Merge branch 'develop' into dependabot/npm_and_yarn/develop/babel/runtime-7.14.5 ([463da88](https://github.com/softcrumhq/eslint-config/commit/463da8814231faa555dc12f514267c19a1b8ec3a))
-- Merge pull request #149 from softcrumhq/dependabot/npm_and_yarn/develop/babel/eslint-parser-7.14.5 ([a1450fc](https://github.com/softcrumhq/eslint-config/commit/a1450fcee70d58c8ce13deeab495149bfbebd53e)), closes [#149](https://github.com/softcrumhq/eslint-config/issues/149)
-- Merge pull request #148 from softcrumhq/dependabot/npm_and_yarn/develop/eslint-7.28.0 ([393d864](https://github.com/softcrumhq/eslint-config/commit/393d8644682fda76d4626fe82380c99660eddeab)), closes [#148](https://github.com/softcrumhq/eslint-config/issues/148)
-- Merge pull request #147 from softcrumhq/dependabot/npm_and_yarn/develop/prettier-2.3.1 ([956fb70](https://github.com/softcrumhq/eslint-config/commit/956fb70c71ebf663e05ce0eda2fcf1d08205ae94)), closes [#147](https://github.com/softcrumhq/eslint-config/issues/147)
-- Merge pull request #146 from softcrumhq/dependabot/npm_and_yarn/develop/jest-27.0.4 ([bafcd13](https://github.com/softcrumhq/eslint-config/commit/bafcd130490d0994f1f9528ab244c4e9aabcf576)), closes [#146](https://github.com/softcrumhq/eslint-config/issues/146)
-- Merge pull request #145 from softcrumhq/dependabot/npm_and_yarn/develop/eslint-plugin-react-7.24.0 ([cb3e34c](https://github.com/softcrumhq/eslint-config/commit/cb3e34cb2e73a70a8adf9239f21831ca78226c46)), closes [#145](https://github.com/softcrumhq/eslint-config/issues/145)
-- Merge pull request #144 from softcrumhq/dependabot/npm_and_yarn/develop/babel-jest-27.0.2 ([09e0123](https://github.com/softcrumhq/eslint-config/commit/09e01233cbb810edb55ed1fb24e04ba1408c3eb7)), closes [#144](https://github.com/softcrumhq/eslint-config/issues/144)
-- Merge pull request #141 from softcrumhq/dependabot/npm_and_yarn/develop/eslint-plugin-import-2.23.4 ([ae21ce4](https://github.com/softcrumhq/eslint-config/commit/ae21ce4ddc8934a59ec0b6835d64986a61f63c68)), closes [#141](https://github.com/softcrumhq/eslint-config/issues/141)
-
 ## [1.8.7](https://github.com/softcrumhq/eslint-config/compare/v1.8.6...v1.8.7) (2021-05-27)
 
 ### Bug Fixes
