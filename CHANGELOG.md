@@ -1,3 +1,34 @@
+# [1.9.0](https://github.com/softcrumhq/eslint-config/compare/v1.8.8...v1.9.0) (2021-09-12)
+
+### Bug Fixes
+
+- **deps:** bump crazy-max/ghaction-import-gpg from 3.1.0 to 4 ([4db4c0e](https://github.com/softcrumhq/eslint-config/commit/4db4c0eb31f0d692242ee4daac36dc2f3c4803ea))
+- **deps-dev:** bump babel-jest from 27.0.2 to 27.1.1 ([3bb8a45](https://github.com/softcrumhq/eslint-config/commit/3bb8a459ca2aca4944c5f041bb8cd86c4168dbd9))
+- **deps-dev:** bump prettier from 2.3.1 to 2.4.0 ([ff5ddd0](https://github.com/softcrumhq/eslint-config/commit/ff5ddd04221e8ce064e2478de949210b46368572))
+
+### Chores
+
+- **deps:** bump path-parse from 1.0.6 to 1.0.7 ([61c274c](https://github.com/softcrumhq/eslint-config/commit/61c274c1939c802ae3aa3db3a824f08bfae17719))
+- **publish:** Se actualizan los archivos CHANGELOG.md y README.md ([c9beea2](https://github.com/softcrumhq/eslint-config/commit/c9beea2639abc8d74d346b449806bf385ef7eb6a))
+
+### Features
+
+- Se actualizan las dependencias del proyecto ([c24c364](https://github.com/softcrumhq/eslint-config/commit/c24c364c56294b8e5af70f8d5612fa53ecd09af2))
+- Se actualizan las dependencias del proyecto ([0717b55](https://github.com/softcrumhq/eslint-config/commit/0717b55cb58e00ca7e727fac649a72f2f7774a18))
+- Se actualizan las dependencias del proyecto ([dec8d4d](https://github.com/softcrumhq/eslint-config/commit/dec8d4df0ee5793275b771597df3174a05cef599))
+
+### Other
+
+- Merge pull request #199 from softcrumhq/release ([8c7320f](https://github.com/softcrumhq/eslint-config/commit/8c7320f6872ecae28439aae5bf6b9f52e1b90551)), closes [#199](https://github.com/softcrumhq/eslint-config/issues/199)
+- Merge pull request #198 from softcrumhq/develop ([2507532](https://github.com/softcrumhq/eslint-config/commit/2507532389f13e9ff979914efcb144c923b44446)), closes [#198](https://github.com/softcrumhq/eslint-config/issues/198)
+- Merge pull request #197 from softcrumhq/feature/update-dependencies ([f12fd3e](https://github.com/softcrumhq/eslint-config/commit/f12fd3e199a18e6e3e7d27c9c09b172367d03de0)), closes [#197](https://github.com/softcrumhq/eslint-config/issues/197)
+- Merge pull request #180 from softcrumhq/dependabot/npm_and_yarn/path-parse-1.0.7 ([19fcc50](https://github.com/softcrumhq/eslint-config/commit/19fcc5012e29ceaee3cca02ac8d58ec36b2b07c1)), closes [#180](https://github.com/softcrumhq/eslint-config/issues/180)
+- Merge pull request #191 from softcrumhq/dependabot/github_actions/develop/crazy-max/ghaction-import-gpg-4 ([9c2715d](https://github.com/softcrumhq/eslint-config/commit/9c2715dd4eada6d9ad0557ae208bcf2674bce49b)), closes [#191](https://github.com/softcrumhq/eslint-config/issues/191)
+- Merge pull request #196 from softcrumhq/feature/update-dependencies ([952572f](https://github.com/softcrumhq/eslint-config/commit/952572f0ea07916a1bd20c4840b35c837725625b)), closes [#196](https://github.com/softcrumhq/eslint-config/issues/196)
+- Merge pull request #194 from softcrumhq/dependabot/npm_and_yarn/develop/babel-jest-27.1.1 ([0efbe7f](https://github.com/softcrumhq/eslint-config/commit/0efbe7f8cac0470005090b05021f0a00b6ff487a)), closes [#194](https://github.com/softcrumhq/eslint-config/issues/194)
+- Merge pull request #195 from softcrumhq/dependabot/npm_and_yarn/develop/prettier-2.4.0 ([fe186f1](https://github.com/softcrumhq/eslint-config/commit/fe186f161e84135327294ec59e1febe91adaa90a)), closes [#195](https://github.com/softcrumhq/eslint-config/issues/195)
+- Merge pull request #154 from softcrumhq/master ([9efb6dc](https://github.com/softcrumhq/eslint-config/commit/9efb6dc7185bf22ca52c13784e321e80e451c9f2)), closes [#154](https://github.com/softcrumhq/eslint-config/issues/154)
+
 ## [1.8.8](https://github.com/softcrumhq/eslint-config/compare/v1.8.7...v1.8.8) (2021-06-11)
 
 ### Bug Fixes
