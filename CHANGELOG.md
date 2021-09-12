@@ -1,3 +1,36 @@
+## [1.8.8](https://github.com/softcrumhq/eslint-config/compare/v1.8.7...v1.8.8) (2021-06-11)
+
+### Bug Fixes
+
+- **deps-dev:** bump @babel/core from 7.14.3 to 7.14.5 ([24a7cfa](https://github.com/softcrumhq/eslint-config/commit/24a7cfa46d031a96feb88b4b93bc0042db8c7c51))
+- **deps-dev:** bump @babel/eslint-parser from 7.14.3 to 7.14.5 ([7f5c1a2](https://github.com/softcrumhq/eslint-config/commit/7f5c1a2447ca6770ed6879ff4176ffa9904fbd2c))
+- **deps-dev:** bump @babel/runtime from 7.14.0 to 7.14.5 ([65ad2dc](https://github.com/softcrumhq/eslint-config/commit/65ad2dc91428f7ae0c1f7732f8afa7847c3efb89))
+- **deps-dev:** bump babel-jest from 27.0.1 to 27.0.2 ([69efaf2](https://github.com/softcrumhq/eslint-config/commit/69efaf2ffa256ca0a84b3e59429e8b79b09015df))
+- **deps-dev:** bump eslint from 7.27.0 to 7.28.0 ([1f5b74b](https://github.com/softcrumhq/eslint-config/commit/1f5b74b4c7172a3044b9ea6921c05b58db239240))
+- **deps-dev:** bump eslint-plugin-import from 2.23.3 to 2.23.4 ([0c5d4fe](https://github.com/softcrumhq/eslint-config/commit/0c5d4febc55c0d67e2d30fb2f7bcbb095b0d6220))
+- **deps-dev:** bump eslint-plugin-react from 7.23.2 to 7.24.0 ([a7b5161](https://github.com/softcrumhq/eslint-config/commit/a7b516136f3e8aea4c4d9b7aa8c0a09eed864b3a))
+- **deps-dev:** bump jest from 27.0.1 to 27.0.4 ([fbce3aa](https://github.com/softcrumhq/eslint-config/commit/fbce3aaf870fd986a86a5a41cc6a87173baf170f))
+- **deps-dev:** bump prettier from 2.3.0 to 2.3.1 ([7d46819](https://github.com/softcrumhq/eslint-config/commit/7d468197bab9a24811f954935eed110b056c5a1d))
+
+## [1.8.7](https://github.com/softcrumhq/eslint-config/compare/v1.8.6...v1.8.7) (2021-05-27)
+
+### Bug Fixes
+
+- **deps:** bump actions/checkout from 2 to 2.3.4 ([f5b93ac](https://github.com/softcrumhq/eslint-config/commit/f5b93aca8e2abcae4eef0e1d602832a730df14f7))
+- **deps:** bump actions/setup-node from 2 to 2.1.5 ([7fa0042](https://github.com/softcrumhq/eslint-config/commit/7fa0042d10d14b5d13daab7a1d3825f4b5fa2ce6))
+- **deps:** bump crazy-max/ghaction-import-gpg from 3 to 3.1.0 ([4289ab9](https://github.com/softcrumhq/eslint-config/commit/4289ab96608dfb5008a6efdcc9be2f6e09010ddb))
+- **deps-dev:** bump @babel/core from 7.14.0 to 7.14.3 ([a055584](https://github.com/softcrumhq/eslint-config/commit/a0555844a498725ef550612070294ca36412cbbf))
+- **deps-dev:** bump @babel/eslint-parser from 7.13.14 to 7.14.3 ([6815dec](https://github.com/softcrumhq/eslint-config/commit/6815decdcfc16583031f2f0b45ba024be568572e))
+- **deps-dev:** bump babel-jest from 26.6.3 to 27.0.1 ([4bb6c59](https://github.com/softcrumhq/eslint-config/commit/4bb6c59832f2e1cc3e34116d4276d56e004d04cd))
+- **deps-dev:** bump eslint from 7.26.0 to 7.27.0 ([28ffdd7](https://github.com/softcrumhq/eslint-config/commit/28ffdd7a9c48d068d022448cb42fdaa2656fe73b))
+- **deps-dev:** bump eslint-plugin-import from 2.22.1 to 2.23.3 ([37a275c](https://github.com/softcrumhq/eslint-config/commit/37a275cf4d3ac7f9db594f0776fa570d361abf31))
+- **deps-dev:** bump jest from 26.6.3 to 27.0.1 ([dc658e5](https://github.com/softcrumhq/eslint-config/commit/dc658e56988b26cdd4ae18dd7cfdaef1ac919dba))
+- **deps-dev:** bump jscpd from 3.3.25 to 3.3.26 ([642d5fb](https://github.com/softcrumhq/eslint-config/commit/642d5fbf586f0330ead47b236feadcefe3f5cc51))
+
+### Chores
+
+- **deps:** bump browserslist from 4.16.3 to 4.16.6 ([29410f2](https://github.com/softcrumhq/eslint-config/commit/29410f2577174b5d5f1278d3fa6331b1a4aeab46))
+
 ## [1.8.6](https://github.com/softcrumhq/eslint-config/compare/v1.8.5...v1.8.6) (2021-05-10)
 
 ### Bug Fixes
