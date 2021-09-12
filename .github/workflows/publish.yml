@@ -19,7 +19,7 @@ jobs:
         fetch-depth: 0
         token: ${{ secrets.GH_COMMIT }}
     - name: Run script - setup
-      uses: actions/setup-node@v2.1.5
+      uses: actions/setup-node@v2.4.0
       with:
         node-version: ${{ matrix.node-version }}
         registry-url: https://npm.pkg.github.com/
@@ -37,7 +37,7 @@ jobs:
       with:
         cmd: actions:version
     - name: Run script - gpg
-      uses: crazy-max/ghaction-import-gpg@v3.1.0
+      uses: crazy-max/ghaction-import-gpg@v4
       with:
         git-commit-gpgsign: true
         gpg-private-key: ${{ secrets.GPG_KEY }}
