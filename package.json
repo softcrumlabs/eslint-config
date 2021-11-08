@@ -67,7 +67,7 @@
     "hosted-git-info": "4.0.2",
     "jest": "27.1.1",
     "jest-sonar-reporter": "2.0.0",
-    "jscpd": "3.3.26",
+    "jscpd": "3.4.2",
     "pre-commit": "1.2.2",
     "prettier": "2.4.0",
     "react": "16.14.0",
