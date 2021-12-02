@@ -65,7 +65,7 @@
     "eslint-plugin-react": "7.25.1",
     "eslint-plugin-react-hooks": "4.2.0",
     "hosted-git-info": "4.0.2",
-    "jest": "27.1.1",
+    "jest": "27.4.3",
     "jest-sonar-reporter": "2.0.0",
     "jscpd": "3.3.26",
     "pre-commit": "1.2.2",
