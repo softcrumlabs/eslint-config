@@ -64,7 +64,7 @@
     "eslint-plugin-prettier": "4.0.0",
     "eslint-plugin-react": "7.28.0",
     "eslint-plugin-react-hooks": "4.3.0",
-    "hosted-git-info": "4.0.2",
+    "hosted-git-info": "5.0.0",
     "jest": "27.4.5",
     "jest-sonar-reporter": "2.0.0",
     "jscpd": "3.4.2",
