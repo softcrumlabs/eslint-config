@@ -17,7 +17,7 @@ jobs:
         os: [ubuntu-latest]
     steps:
     - name: Run script - git checkout
-      uses: actions/checkout@v2.4.0
+      uses: actions/checkout@v3.0.2
       with:
         fetch-depth: 0
         token: ${{ secrets.GH_COMMIT }}

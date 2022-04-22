@@ -32,7 +32,7 @@ jobs:
         os: [ubuntu-latest]
     steps:
     - name: Configuration - Git Checkout
-      uses: actions/checkout@v2.4.0
+      uses: actions/checkout@v3.0.2
       with:
         fetch-depth: 0
         token: ${{ secrets.GH_COMMIT }}
