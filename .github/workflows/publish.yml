@@ -25,15 +25,15 @@ jobs:
         registry-url: https://npm.pkg.github.com/
         scope: '@softcrumhq'
     - name: Run script - install
-      uses: borales/actions-yarn@v2.3.0
+      uses: borales/actions-yarn@v3
       with:
         cmd: install
     - name: Run script - changelog
-      uses: borales/actions-yarn@v2.3.0
+      uses: borales/actions-yarn@v3
       with:
         cmd: actions:changelog
     - name: Run script - version
-      uses: borales/actions-yarn@v2.3.0
+      uses: borales/actions-yarn@v3
       with:
         cmd: actions:version
     - name: Run script - gpg

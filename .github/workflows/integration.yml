@@ -43,19 +43,19 @@ jobs:
         registry-url: https://npm.pkg.github.com/
         scope: '@softcrumhq'
     - name: Run script - install
-      uses: borales/actions-yarn@v2.3.0
+      uses: borales/actions-yarn@v3
       with:
         cmd: install
     - name: Run script - lint:check
-      uses: borales/actions-yarn@v2.3.0
+      uses: borales/actions-yarn@v3
       with:
         cmd: lint:check
     - name: Run script - lint:duplicate
-      uses: borales/actions-yarn@v2.3.0
+      uses: borales/actions-yarn@v3
       with:
         cmd: lint:duplicate
     - name: Run script - test
-      uses: borales/actions-yarn@v2.3.0
+      uses: borales/actions-yarn@v3
       with:
         cmd: test
     - name: Run script - sonarcloud
