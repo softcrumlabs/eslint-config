@@ -37,7 +37,7 @@ jobs:
         fetch-depth: 0
         token: ${{ secrets.GH_COMMIT }}
     - name: Install - NodeJS ${{ matrix.node-version }}
-      uses: actions/setup-node@v2.5.0
+      uses: actions/setup-node@v3.4.1
       with:
         node-version: ${{ matrix.node-version }}
         registry-url: https://npm.pkg.github.com/
